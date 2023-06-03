@@ -1,3 +1,6 @@
+;;; init-elpaca.el
+;;; This file is used to install Elpaca, a package manager in Emacs.
+;;; Code:
 
 (defvar elpaca-installer-version 0.4)
 (defvar elpaca-directory (expand-file-name "elpaca/" user-emacs-directory))
