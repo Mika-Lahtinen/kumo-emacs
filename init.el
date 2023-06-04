@@ -37,6 +37,7 @@
 
 ;; Basic settings when plugins are not loaded.
 ;; All the configurations in init-basic are common in all versions of Emacs.
+(require 'cl-lib)
 (require 'init-basic)
 (require 'init-keybind)
 
