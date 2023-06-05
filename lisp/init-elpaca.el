@@ -1,7 +1,9 @@
-;;; init-elpaca.el
+;;; init-elpaca.el. -*- lexical binding: t -*- 
+;;; Commentary:
 ;;; This file is used to install Elpaca, a package manager in Emacs.
 ;;; Code:
 
+;; Install elpaca.
 (defvar elpaca-installer-version 0.4)
 (defvar elpaca-directory (expand-file-name "elpaca/" user-emacs-directory))
 (defvar elpaca-builds-directory (expand-file-name "builds/" elpaca-directory))
@@ -39,4 +41,15 @@
 (add-hook 'after-init-hook #'elpaca-process-queues)
 (elpaca `(,@elpaca-order))
 
+;; Install use-package and make use-package usable.
+(elpaca elpaca-use-package
+  ;; Enable :elpaca use-package keyword.
+  (elpaca-use-package-mode)
+  ;; Assume :elpaca t unless otherwise specified.
+  (setq elpaca-use-package-by-default t))
+
+(elpaca-wait)
+
 (provide 'init-elpaca)
+
+;;; init-elpaca.el ends here.

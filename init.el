@@ -1,5 +1,5 @@
-;;; init.el --- Load all configurations -*- lexical binding: t -*- 
-;;; Comments: 
+;;; init.el --- Load all configurations. -*- lexical binding: t -*- 
+;;; Commentary: 
 ;; All confuigurations are divided into many modules here.
 ;; To start or stop using predefined modules,
 ;; just checkout the following 'init' modules here.
@@ -42,6 +42,11 @@
 (require 'init-keybind)
 
 (require 'init-elpaca)
+
+(require 'init-edit)
+
+;; Programming language configurations
+(require 'lang/rust)
 
 (provide 'init)
 ;;; init.el ends here.
