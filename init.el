@@ -43,10 +43,17 @@
 
 (require 'init-elpaca)
 
+(require 'init-display)
+(require 'init-dir)
 (require 'init-edit)
 
 ;; Programming language configurations
 (require 'lang/rust)
+
+;; Custom settings are located here.
+(setq custom-file (expand-file-name "custom.el" user-emacs-directory))
+(load custom-file 'no-error 'no-message)
+
 
 (provide 'init)
 ;;; init.el ends here.

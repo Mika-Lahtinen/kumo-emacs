@@ -1,3 +1,5 @@
 elpaca/
 auto-save-list/
 site-lisp/
+transient/
+custom.el

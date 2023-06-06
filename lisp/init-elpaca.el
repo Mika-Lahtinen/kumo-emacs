@@ -50,6 +50,11 @@
 
 (elpaca-wait)
 
+(setq use-package-always-ensure t
+      use-package-always-defer t
+      use-package-enable-imenu-support t
+      use-package-expand-minimally t)
+
 (provide 'init-elpaca)
 
 ;;; init-elpaca.el ends here.

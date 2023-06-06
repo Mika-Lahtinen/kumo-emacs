@@ -4,6 +4,11 @@
 ;; all versios of Emacs.
 ;;; Code:
 
+;; Check OS
+(defconst *is-mac* (eq system-type 'darwin))
+(defconst *is-linux* (eq system-type 'gnu/linux))
+(defconst *is-windows* (or (eq system-type 'ms-dos) (eq system-type 'windows-nt)))
+
 ;; Close startup screen
 (setq inhibit-startup-message t)
 
@@ -38,6 +43,13 @@
 (add-to-list 'default-frame-alist '(width . 80))
 (add-to-list 'default-frame-alist '(height . 35))
 
+;; Encoding
+(prefer-coding-system 'utf-8)
+(unless *is-windows*
+    (set-selection-coding-system 'utf-8))
+
+;; Yes or No
+(defalias 'yes-or-no-p 'y-or-n-p)
 
 (provide 'init-basic)
 
