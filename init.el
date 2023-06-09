@@ -46,6 +46,7 @@
 (require 'init-display)
 (require 'init-dir)
 (require 'init-edit)
+(require 'init-hint)
 
 ;; Programming language configurations
 (require 'lang/rust)
