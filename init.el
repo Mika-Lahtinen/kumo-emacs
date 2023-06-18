@@ -48,6 +48,7 @@
 (require 'init-edit)
 (require 'init-hint)
 
+(require 'init-org)
 ;; Programming language configurations
 (require 'lang/rust)
 

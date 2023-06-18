@@ -9,6 +9,10 @@
 (defconst *is-linux* (eq system-type 'gnu/linux))
 (defconst *is-windows* (or (eq system-type 'ms-dos) (eq system-type 'windows-nt)))
 
+;; UTF-8 Default
+(set-language-environment 'UTF-8)
+(set-locale-environment "UTF-8")
+
 ;; Close startup screen
 (setq inhibit-startup-message t)
 

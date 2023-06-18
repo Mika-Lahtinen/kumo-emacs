@@ -1,5 +1,9 @@
 ;; Initial display settings
-(set-face-attribute 'default nil :height 100)
+(when *is-windows*
+    (set-face-attribute 'default nil 
+        :font "Cascadia Mono" 
+        :height 100
+        :weight 'Regular))
 (global-hl-line-mode 1)
 
 (use-package color-theme-modern
