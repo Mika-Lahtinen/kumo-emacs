@@ -1,9 +1,0 @@
-((:container
-  ((elisp org-element--headline-cache)
-   (elisp org-element--cache))
-  :persist-file "58/f96fb0-32f4-495c-ad49-f1968bf887e9" :associated
-  (:hash "e9b01c4be65e90f984710cce7be6ca35" :file "f:/Homework/notes/ex1.org" :inode 4503599627396865)
-  :expiry 30 :last-access 1687088496.26762 :last-access-hr "2023-06-18T19:41:36+0800")
- (:container
-  ((index "3.1"))
-  :persist-file "73/638970-6b4d-4b96-949a-0ff0eeb7cced" :associated nil :expiry never :last-access 1687088496.301199 :last-access-hr "2023-06-18T19:41:36+0800"))
