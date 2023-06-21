@@ -19,6 +19,10 @@
 
 ;; If you need to move your configurations into 'init' module,
 ;; please move into 'lisp' path.
+(defvar emacs-dir
+  (eval-when-compile (file-truename user-emacs-directory)
+  ))
+
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
 ;; Benchmarking for Emacs.
@@ -38,19 +42,19 @@
 ;; Basic settings when plugins are not loaded.
 ;; All the configurations in init-basic are common in all versions of Emacs.
 (require 'cl-lib)
-(require 'init-basic)
-(require 'init-keybind)
+;; (require 'init-basic)
+;; (require 'init-keybind)
 
-(require 'init-elpaca)
+;; (require 'init-elpaca)
 
-(require 'init-display)
-(require 'init-dir)
-(require 'init-edit)
-(require 'init-hint)
+;; (require 'init-display)
+;; (require 'init-dir)
+;; (require 'init-edit)
+;; (require 'init-hint)
 
-(require 'init-org)
+;; (require 'init-org)
 ;; Programming language configurations
-(require 'lang/rust)
+;; (require 'lang/rust)
 
 ;; Custom settings are located here.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))
