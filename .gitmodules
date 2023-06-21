@@ -7,3 +7,6 @@
 [submodule "plugin/dirvish"]
 	path = plugin/dirvish
 	url = https://github.com/alexluigit/dirvish.git
+[submodule "plugin/evil"]
+	path = plugin/evil
+	url = https://github.com/emacs-evil/evil.git

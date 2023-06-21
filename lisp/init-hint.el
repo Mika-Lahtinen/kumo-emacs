@@ -1,6 +1,8 @@
 (use-package which-key
     :ensure t
-    :init
-    (which-key-mode))
+    :config
+    (progn
+        (which-key-mode)
+        (which-key-setup-side-window-bottom)))
 
 (provide 'init-hint)
