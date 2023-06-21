@@ -24,6 +24,10 @@
 (scroll-bar-mode -1)
 (tool-bar-mode -1)
 
+;; Show time and battery.
+(display-time-mode 1)
+(display-battery-mode 1)
+
 ;; Stop auto backup files when editing.
 (setq make-backup-files nil)
 
