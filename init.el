@@ -19,10 +19,6 @@
 
 ;; If you need to move your configurations into 'init' module,
 ;; please move into 'lisp' path.
-(defvar emacs-dir
-  (eval-when-compile (file-truename user-emacs-directory)
-  ))
-
 (add-to-list 'load-path (expand-file-name "lisp" user-emacs-directory))
 
 ;; Benchmarking for Emacs.
@@ -46,6 +42,7 @@
 ;; (require 'init-keybind)
 
 ;; (require 'init-elpaca)
+(require 'init-use-package)
 
 ;; (require 'init-display)
 ;; (require 'init-dir)

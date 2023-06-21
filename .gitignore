@@ -4,3 +4,4 @@ site-lisp/
 transient/
 org-persist/
 custom.el
+plugin/
