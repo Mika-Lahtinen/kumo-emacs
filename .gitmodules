@@ -1,3 +1,9 @@
 [submodule "plugin/use-package"]
 	path = plugin/use-package
 	url = https://github.com/jwiegley/use-package
+[submodule "plugin/which-key"]
+	path = plugin/which-key
+	url = https://github.com/justbur/emacs-which-key.git
+[submodule "plugin/dirvish"]
+	path = plugin/dirvish
+	url = https://github.com/alexluigit/dirvish.git
