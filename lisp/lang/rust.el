@@ -1,4 +1,5 @@
 (use-package rustic
+    :load-path "plugin/rustic"
     :defer t
     :config
     (progn
