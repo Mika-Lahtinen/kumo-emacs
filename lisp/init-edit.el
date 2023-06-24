@@ -7,22 +7,6 @@
 ;; before moving them into this file.
 ;;; Code:
 
-;; Evil
-(use-package evil
-    :demand t
-    :ensure t
-    :init
-    (setq evil-want-integration t)
-    (setq evil-want-keybinding nil)
-    (setq evil-vsplit-window-right t)
-    (setq evil-split-window-below t)
-    (evil-mode))
-(use-package evil-collection
-    :after evil
-    :ensure t
-    :config
-    (evil-collection-init))
-
 ;;; Auto completion are following here.
 ;; Vertico
 (use-package vertico

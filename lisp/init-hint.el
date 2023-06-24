@@ -1,5 +1,6 @@
 (use-package which-key
     :ensure t
+    :custom (which-key-idle-delay 0.5)
     :config
     (progn
         (which-key-mode)

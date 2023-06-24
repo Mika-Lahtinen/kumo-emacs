@@ -50,6 +50,7 @@
 ;; (require 'init-dir)
 ;; (require 'init-edit)
 ;; (require 'init-hint)
+;; (require 'init-modal)
 
 ;; (require 'init-org)
 ;; Programming language configurations
