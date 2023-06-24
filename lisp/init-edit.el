@@ -10,16 +10,31 @@
 ;;; Auto completion are following here.
 ;; Vertico
 (use-package vertico
+    :load-path "plugin/vertico"
     :init
     (vertico-mode t))
 
 ;; Orderless
 (use-package orderless
+    :load-path "plugin/orderless"
     :init
     (setq completions-style '(orderless)))
 
+;; Consult
+(use-package consult
+    :load-path "plugin/consult")
+
+;; Marginalia
+(use-package marginalia
+    :load-path "plugin/marginalia")
+
+;; Embark
+(use-package embark
+    :load-path "plugin/embark")
+
 ;; Corfu -- Company alternative
 (use-package corfu
+    :load-path "plugin/corfu"
     :init
     (global-corfu-mode)
     :config

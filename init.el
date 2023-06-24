@@ -51,6 +51,7 @@
 ;; (require 'init-edit)
 ;; (require 'init-hint)
 ;; (require 'init-modal)
+;; (require 'init-snippets)
 
 ;; (require 'init-org)
 ;; Programming language configurations

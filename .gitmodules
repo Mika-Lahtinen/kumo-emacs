@@ -13,3 +13,27 @@
 [submodule "plugin/rustic"]
 	path = plugin/rustic
 	url = https://github.com/brotzeit/rustic.git
+[submodule "plugin/yasnippet"]
+	path = plugin/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "plugin/diminish"]
+	path = plugin/diminish
+	url = https://github.com/emacsmirror/diminish.git
+[submodule "plugin/vertico"]
+	path = plugin/vertico
+	url = https://github.com/minad/vertico.git
+[submodule "plugin/marginalia"]
+	path = plugin/marginalia
+	url = https://github.com/minad/marginalia.git
+[submodule "plugin/embark"]
+	path = plugin/embark
+	url = https://github.com/oantolin/embark.git
+[submodule "plugin/orderless"]
+	path = plugin/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "plugin/corfu"]
+	path = plugin/corfu
+	url = https://github.com/minad/corfu.git
+[submodule "plugin/consult"]
+	path = plugin/consult
+	url = https://github.com/minad/consult.git
