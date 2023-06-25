@@ -43,7 +43,6 @@
 ;; (require 'init-basic)
 ;; (require 'init-keybind)
 
-;; (require 'init-elpaca)
 (require 'init-use-package)
 
 ;; (require 'init-display)
@@ -54,8 +53,15 @@
 ;; (require 'init-snippets)
 
 ;; (require 'init-org)
+
 ;; Programming language configurations
+;; (require 'lang/cpp)
 ;; (require 'lang/rust)
+;; (require 'lang/elixir)
+;; (require 'lang/javascript)
+;; (require 'lang/markdown)
+;; (require 'lang/latex)
+;; 
 
 ;; Custom settings are located here.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

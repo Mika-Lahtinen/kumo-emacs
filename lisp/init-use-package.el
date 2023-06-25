@@ -1,5 +1,6 @@
 ;; I'm not really sure whether I'll need packages from Elpa repos,
 ;; so here I still reserve Elpa links here.
+;; (require 'package)
 ;; (setq package-archives '(("gnu"    . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
 ;;                         ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
 ;;                         ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))

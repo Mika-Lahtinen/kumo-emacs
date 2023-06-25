@@ -37,3 +37,6 @@
 [submodule "plugin/consult"]
 	path = plugin/consult
 	url = https://github.com/minad/consult.git
+[submodule "plugin/markdown-mode"]
+	path = plugin/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
