@@ -4,7 +4,15 @@
 ;; (setq package-archives '(("gnu"    . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
 ;;                         ("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
 ;;                         ("melpa"  . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")))
-;; (package-initialize) ;; You might already have this line
+;;
+;; Run package-refresh-contents if first start.
+;; use folder "var" to check if it is the first start, see no-littering.
+;; (unless (file-exists-p (expand-file-name "var" user-emacs-directory))
+;;  (package-refresh-contents))
+
+;; (setq package-enable-at-startup nil)
+
+;; (package-initialize)
 
 (defvar emacs-dir
   (eval-when-compile (file-truename user-emacs-directory)
