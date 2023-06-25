@@ -1,3 +1,13 @@
+
+(defvar emacs-dir
+  (eval-when-compile (file-truename user-emacs-directory)
+  "Defined emacs-dir."))
+
+(push (concat emacs-dir "plugin/use-package/") load-path)
+
+(eval-when-compile
+  (require 'use-package))
+
 ;; I'm not really sure whether I'll need packages from Elpa repos,
 ;; so here I still reserve Elpa links here.
 ;; (require 'package)
@@ -14,14 +24,8 @@
 
 ;; (package-initialize)
 
-(defvar emacs-dir
-  (eval-when-compile (file-truename user-emacs-directory)
-  "Defined emacs-dir."))
-
-(push (concat emacs-dir "plugin/use-package/") load-path)
-
-(eval-when-compile
-  (require 'use-package))
+(require 'use-package)
+(setq use-package-always-sure t)
 
 (setq package-check-signature nil)
 (provide 'init-use-package)
