@@ -1,4 +1,5 @@
-;;; init.el --- Load all configurations. -*- lexical binding: t -*- 
+;;; init.el --- Load all configurations. 
+; -*- lexical binding: t -*- 
 ;;; Commentary: 
 ;; All confuigurations are divided into many modules here.
 ;; To start or stop using predefined modules,
