@@ -9,14 +9,11 @@
 (use-package diminish
     :load-path "plugin/diminish")
 
-(use-package color-theme-modern
-    :load-path "plugin/replace-colortheme"
-    :ensure t
-    :init
-    (add-to-list 'custom-theme-load-path
-            (file-name-as-directory 
-             (expand-file-name "plugin/replace-colortheme" user-emacs-directory)))
-    (load-theme 'andreas t))
+
+(add-to-list 'custom-theme-load-path
+    (file-name-as-directory 
+        (expand-file-name "themes" user-emacs-directory)))
+(load-theme 'andreas t)
 
 ;; Mode line
 (use-package smart-mode-line

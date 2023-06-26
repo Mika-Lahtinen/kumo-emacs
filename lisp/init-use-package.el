@@ -1,7 +1,7 @@
 
 (defvar emacs-dir
-  (eval-when-compile (file-truename user-emacs-directory)
-  "Defined emacs-dir."))
+  (eval-when-compile (file-truename user-emacs-directory))
+  )
 
 (push (concat emacs-dir "plugin/use-package/") load-path)
 
