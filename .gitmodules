@@ -40,9 +40,6 @@
 [submodule "plugin/markdown-mode"]
 	path = plugin/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode.git
-[submodule "themes"]
-	path = themes
-	url = https://github.com/emacs-jp/replace-colorthemes.git
 [submodule "plugin/smart-mode-line"]
 	path = plugin/smart-mode-line
 	url = https://github.com/Malabarba/smart-mode-line.git
