@@ -1,5 +1,4 @@
 auto-save-list/
-site-lisp/
 transient/
 org-persist/
 custom.el
