@@ -39,7 +39,9 @@
 (require 'init-basic)
 ;; (require 'init-keybind)
 
-;; (require 'init-org)
+;; Tools wanna use settings
+;; (require 'tools/lsp)
+;; (require 'tools/org)
 
 ;; Programming language configurations
 ;; (require 'lang/cpp)

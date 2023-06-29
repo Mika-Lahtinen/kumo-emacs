@@ -4,7 +4,7 @@ This configuration is still contributing, for more details please follow this re
 
 ## Requirement
 
-- Emacs version >= 28 is recommend, maybe you can use the repo under 27.2, I'm not sure now.
+- Emacs version >= 28 is recommend, especially if you want to use LSP-Bridge.
 - git
 - For Windows user : Msys2 is necessary
 

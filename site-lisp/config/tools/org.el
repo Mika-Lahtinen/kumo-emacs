@@ -1,4 +1,4 @@
 (require 'org)
 (use-package pandoc-mode)
 
-(provide 'init-org)
+(provide 'tools/org)
