@@ -39,6 +39,8 @@
 (require 'init-basic)
 ;; (require 'init-keybind)
 
+;; (require 'init-org)
+
 ;; Programming language configurations
 ;; (require 'lang/cpp)
 ;; (require 'lang/rust)
