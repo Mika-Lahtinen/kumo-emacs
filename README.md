@@ -3,6 +3,7 @@
 This configuration is still contributing, for more details please follow this repository.
 
 ## Requirement
+
 - Emacs version >= 28 is recommened, maybe you can use the repo under 27.2, I'm not sure now.
 - git
 - For Windows user : Msys2 is necessary
