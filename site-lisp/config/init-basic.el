@@ -59,6 +59,9 @@
 ;; Yes or No
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+(load-theme 'aalto-dark t t)
+(enable-theme 'aalto-dark)
+
 (provide 'init-basic)
 
 ;;; init-basic.el ends here.
