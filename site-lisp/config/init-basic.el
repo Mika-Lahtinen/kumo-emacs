@@ -60,7 +60,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 (add-to-list 'custom-theme-load-path
-             (file-name-as-directory (expand-file-name "themes" user-emacs-directory)))
+             (file-name-as-directory (expand-file-name "site-lisp/themes" user-emacs-directory)))
 (load-theme 'aalto-dark t t)
 (enable-theme 'aalto-dark)
 
