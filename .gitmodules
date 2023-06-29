@@ -1,0 +1,12 @@
+[submodule "site-lisp/plugin/auctex"]
+	path = site-lisp/plugin/auctex
+	url = https://github.com/emacs-straight/auctex.git
+[submodule "site-lisp/plugin/yasnippet"]
+	path = site-lisp/plugin/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "site-lisp/plugin/yasnippet-snippets"]
+	path = site-lisp/plugin/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "site-lisp/plugin/markdown-mode"]
+	path = site-lisp/plugin/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
