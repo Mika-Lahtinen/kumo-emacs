@@ -4,7 +4,7 @@ This configuration is still contributing, for more details please follow this re
 
 ## Requirement
 
-- Emacs version >= 28 is recommened, maybe you can use the repo under 27.2, I'm not sure now.
+- Emacs version >= 28 is recommend, maybe you can use the repo under 27.2, I'm not sure now.
 - git
 - For Windows user : Msys2 is necessary
 
