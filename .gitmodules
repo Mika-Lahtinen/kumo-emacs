@@ -10,3 +10,6 @@
 [submodule "site-lisp/plugin/markdown-mode"]
 	path = site-lisp/plugin/markdown-mode
 	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "site-lisp/plugin/lsp-bridge"]
+	path = site-lisp/plugin/lsp-bridge
+	url = https://github.com/manateelazycat/lsp-bridge.git
