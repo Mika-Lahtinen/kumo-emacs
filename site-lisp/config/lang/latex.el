@@ -2,4 +2,4 @@
 ;;     :ensure t)
 (require 'latex)
 
-(provide 'lang/latex)
+(provide 'lang/LaTeX)
