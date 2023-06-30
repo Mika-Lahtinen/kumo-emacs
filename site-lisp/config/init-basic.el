@@ -69,7 +69,11 @@
     (set-face-attribute 'default nil 
         :font "Cascadia Mono" 
         :height 100
-        :weight 'Regular))
+        :weight 'Regular)
+    (setq locale-coding-system 'gb18030)
+    (setq w32-unicode-filenames 'nil)
+    (setq file-name-coding-system 'gb18030)
+        )
 
 (when *is-linux*
     (set-face-attribute 'default nil 
