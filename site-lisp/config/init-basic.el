@@ -65,13 +65,17 @@
 (load-theme 'aalto-light t t)
 (enable-theme 'aalto-light)
 
-(cond
-    ((*is-windows*)
-        (when (member "Consolas" (font-family-list))
-        (set-frame-font "Consolas" t t)))
-    ((*is-linux*)
-        (when (member "DejaVu Sans Mono" (font-family-list))
-        (set-frame-font "DejaVu Sans Mono" t t))))
+(when *is-windows*
+    (set-face-attribute 'default nil 
+        :font "Cascadia Mono" 
+        :height 100
+        :weight 'Regular))
+
+(when *is-linux*
+    (set-face-attribute 'default nil 
+        :font "Dejavu" 
+        :height 100
+        :weight 'Regular))
 
 (provide 'init-basic)
 
