@@ -1,4 +1,5 @@
 ;;; init-basic.el .
+;; -*- lexical-binding: t -*-
 ;;; Comment:
 ;; These configurations could be used in 
 ;; all versios of Emacs.
@@ -61,8 +62,16 @@
 
 (add-to-list 'custom-theme-load-path
              (file-name-as-directory (expand-file-name "site-lisp/themes" user-emacs-directory)))
-(load-theme 'aalto-dark t t)
-(enable-theme 'aalto-dark)
+(load-theme 'aalto-light t t)
+(enable-theme 'aalto-light)
+
+(cond
+    ((*is-windows*)
+        (when (member "Consolas" (font-family-list))
+        (set-frame-font "Consolas" t t)))
+    ((*is-linux*)
+        (when (member "DejaVu Sans Mono" (font-family-list))
+        (set-frame-font "DejaVu Sans Mono" t t))))
 
 (provide 'init-basic)
 
