@@ -1,5 +1,5 @@
 ;; (use-package auctex
 ;;     :ensure t)
-(require 'auctex)
+(require 'latex)
 
 (provide 'lang/latex)
