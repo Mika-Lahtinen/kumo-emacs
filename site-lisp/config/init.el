@@ -37,11 +37,13 @@
 ;; All the configurations in init-basic are common in all versions of Emacs.
 (require 'cl-lib)
 (require 'init-basic)
+(require 'init-display)
 ;; (require 'init-keybind)
 
 ;; Tools wanna use settings
 ;; (require 'tools/lsp)
 ;; (require 'tools/org)
+;; (require 'tools/completion)
 
 ;; Programming language configurations
 ;; (require 'lang/cpp)

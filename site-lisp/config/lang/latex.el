@@ -1,5 +1,3 @@
-;; (use-package auctex
-;;     :ensure t)
 (load "auctex.el" nil t t)
 (load "preview.el" nil t t)
 (setq TeX-auto-save t)
