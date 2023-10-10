@@ -4,30 +4,18 @@ This configuration is still contributing, for more details please follow this re
 
 ## Requirement
 
-- Emacs version >= 28 is recommend, especially if you want to use LSP-Bridge.
+- Emacs version >= 28 is recommend.
 - git
+- ripgrep
 - For Windows user : Msys2 is necessary
 
 ## How to use it
 
-1. Clone the repository to a directory in your favor.
-2. Use the following command in repo to fetch plugins.
-```shell
-git submodule update --init --recursive
-git submodule foreach git reset --hard
-git submodule foreach git checkout $(git remote show origin | awk '/HEAD 分支|HEAD branch/ {split($0, a, "："); print a[2]}')
-```
+1. (For Windows User)Make sure you have set HOME variable.
+2. Clone the repository to one of the following path: 
+   - {$HOME}/.emacs.d
+   - {$HOME}/.config/emacs
 
-3. Add the following code into your *.emacs* file
-```lisp
-(defun add-subdirs-to-load-path (dir)
-  "Recursive add directories to `load-path'."
-  (let ((default-directory (file-name-as-directory dir)))
-    (add-to-list 'load-path dir)
-    (normal-top-level-add-subdirs-to-load-path)))
-(add-subdirs-to-load-path "/path/to/kemacs/site-lisp/")
+3. Open Emacs, waiting for the initialization of Elpaca.
 
-(require 'init)
-```
-
-4. Open Emacs and enjoy.
+4. Restart Emacs, enjoy, if you want to add your own configuration, please create and edit "custom.el".
