@@ -18,4 +18,4 @@ This configuration is still contributing, for more details please follow this re
 
 3. Open Emacs, waiting for the initialization of Elpaca.
 
-4. Restart Emacs, enjoy, if you want to add your own configuration, please create and edit "custom.el".
+4. Restart Emacs, enjoy, if you want to add your own configuration, please create and edit "custom.el" first.
