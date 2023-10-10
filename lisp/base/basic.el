@@ -49,11 +49,15 @@
 (delete-selection-mode t)
 
 ;; Initial frame size.
-(add-to-list 'default-frame-alist '(width . 80))
-(add-to-list 'default-frame-alist '(height . 35))
+(add-to-list 'default-frame-alist '(width . 70))
+(add-to-list 'default-frame-alist '(height . 25))
 
 ;; Encoding
 (prefer-coding-system 'utf-8)
+(set-default-coding-systems 'utf-8)
+(set-terminal-coding-system 'utf-8)
+(set-keyboard-coding-system 'utf-8)
+(setq default-buffer-file-coding-system 'utf-8)
 (unless *is-windows*
     (set-selection-coding-system 'utf-8))
 
@@ -65,6 +69,6 @@
 (recentf-mode 1)
 (setq recentf-max-menu-item 10)
 
-(provide 'init-basic)
+(provide 'base/basic)
 
 ;;; init-basic.el ends here.

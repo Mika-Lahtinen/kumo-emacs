@@ -4,6 +4,6 @@
 ;;; Here I use default keymap.
 ;;; However, you can add your own bindings here by yourself. 
 
-(provide 'init-keybind)
+(provide 'base/keybind)
 
 ;;; init-keybind.el ends here.
