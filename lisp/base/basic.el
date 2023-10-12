@@ -71,6 +71,12 @@
 (recentf-mode 1)
 (setq recentf-max-menu-item 10)
 
+;; IDO mode
+(require 'ido)
+(ido-mode t)
+
 (provide 'base/basic)
 
 ;;; init-basic.el ends here.
+
+
