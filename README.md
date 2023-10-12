@@ -13,8 +13,9 @@ This configuration is still contributing, for more details please follow this re
 
 1. (For Windows User)Make sure you have set HOME variable.
 2. Clone the repository to one of the following path: 
-   - {$HOME}/.emacs.d
-   - {$HOME}/.config/emacs
+
+- `{$HOME}/.emacs.d`
+- `{$HOME}/.config/emacs`
 
 3. Open Emacs, waiting for the initialization of Elpaca.
 
