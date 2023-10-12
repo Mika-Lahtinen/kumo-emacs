@@ -1,0 +1,48 @@
+#+TITLE: Todo-s for this configuration
+
+* Basic tools
+** TODO Treemacs
+* Auto completion Support
+** TODO Company mode plugin [0%]
+** TODO Programming languages [0%]
+ - [ ] List in Plan [0%]
+   - [ ] Rust
+   - [ ] Elixir
+   - [ ] C/C++
+   - [ ] Python
+   - [ ] Go
+   - [ ] Erlang
+   - [ ] JavaScript/TypeScript
+   - [ ] C#/F#
+   - [ ] Ruby
+   - [ ] Scheme
+ - [ ] Unsupport currently
+   - Scala
+   - Haskell
+   - OCaml
+
+* Snippets Support
+** TODO YASnippet: Basic snippets support [100%]
+** TODO Specific Programming languages snippets [100%]
+
+* Academic paper writing
+** TODO LaTeX mode
+** TODO Org-mode for LaTeX
+
+* Version control
+** TODO Emacs vc(Default)
+** TODO Magit(On Windows it couldn't work well.)
+
+* Tools for development
+** TODO LSP(Eglot first, LSP-mode is alternative)
+** TODO Debug tools(DAP Protocol)
+** TODO Run codes
+** TODO Test codes
+** TODO Tree-sitter
+* Decoration
+** TODO Modeline themes
+** DONE Basic themes
+* Org-mode
+** TODO Export to other types(Pandoc)
+** TODO *ROAM* note taking
+** TODO Some other additional(Not sure now)
