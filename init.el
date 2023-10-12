@@ -44,6 +44,7 @@
 ;; (require 'base/keybind)
 
 ;; Tools wanna use settings
+(require 'tools/freq)
 ;; (require 'tools/edit)
 ;; (require 'tools/lsp)
 ;; (require 'tools/org)
