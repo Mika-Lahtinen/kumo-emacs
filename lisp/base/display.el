@@ -1,7 +1,7 @@
 (when *is-windows*
     (set-face-attribute 'default nil 
         :font "Cascadia Mono" 
-        :height 100
+        :height 110
         :weight 'Regular)
     (setq locale-coding-system 'gb18030)
     (setq w32-unicode-filenames 'nil)
@@ -18,7 +18,7 @@
 (use-package color-theme-modern
     :ensure t
     :config
-    (load-theme 'aalto-light t))
+    (load-theme 'gtk-ide t))
 
 ;; Icons
 (use-package nerd-icons)

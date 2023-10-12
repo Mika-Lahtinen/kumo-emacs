@@ -6,8 +6,5 @@
 ;; Eglot settings
 (require 'eglot)
 
-;; LSP-Bridge settings
-;; (require ‘lsp-bridge)
-;; (global-lsp-bridge-mode)
 
 (provide 'tools/lsp)

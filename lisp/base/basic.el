@@ -27,6 +27,8 @@
 
 ;; Show time and battery.
 (display-time-mode 1)
+(setq display-time-24hr-format t)
+(setq display-time-day-and-date t)
 (display-battery-mode 1)
 
 ;; Stop auto backup files when editing.
@@ -49,7 +51,7 @@
 (delete-selection-mode t)
 
 ;; Initial frame size.
-(add-to-list 'default-frame-alist '(width . 70))
+(add-to-list 'default-frame-alist '(width . 80))
 (add-to-list 'default-frame-alist '(height . 25))
 
 ;; Encoding
