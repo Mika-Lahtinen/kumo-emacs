@@ -8,7 +8,7 @@
 ;; Check OS
 (defconst *is-mac* (eq system-type 'darwin))
 (defconst *is-linux* (eq system-type 'gnu/linux))
-(defconst *is-windows* (or (eq system-type 'ms-dos) (eq system-type 'windows-nt)))
+(defconst *is-windows* (memq system-type '(cygwin windows-nt ms-dos)))
 
 ;; UTF-8 Default
 (set-language-environment 'UTF-8)
@@ -16,6 +16,12 @@
 
 ;; Close startup screen
 (setq inhibit-startup-message t)
+
+;; Highlight line
+(global-hl-line-mode t)
+
+;; Don't pop up UI dialogs when prompting
+(setq use-dialog-box nil)
 
 ;; Make sure quit Emacs.
 (setq confirm-kill-emacs #'yes-or-no-p)
@@ -72,8 +78,10 @@
 (setq recentf-max-menu-item 10)
 
 ;; IDO mode
-(require 'ido)
-(ido-mode t)
+;; (require 'ido)
+;; (setq ido-enable-flex-matching t)
+;; (setq ido-everywhere t)
+;; (ido-mode t)
 
 (provide 'base/basic)
 

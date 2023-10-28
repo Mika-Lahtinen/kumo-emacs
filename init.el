@@ -46,9 +46,9 @@
 ;; Tools wanna use settings
 (require 'tools/freq)
 ;; (require 'tools/edit)
-;; (require 'tools/lsp)
 ;; (require 'tools/org)
-;; (require 'tools/completion)
+(require 'tools/completion)
+(require 'tools/lsp)
 
 ;; Programming language configurations
 ;; (require 'lang/cpp)

@@ -1,6 +1,7 @@
 auto-save-list/
 eln-cache/
 elpaca/
+elpa/
 transient/
 org-persist/
 custom.el
