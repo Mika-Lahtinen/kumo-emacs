@@ -40,6 +40,7 @@
 (require 'cl-lib)
 (require 'base/package)
 (require 'base/basic)
+(require 'base/locale)
 (require 'base/display)
 ;; (require 'base/keybind)
 

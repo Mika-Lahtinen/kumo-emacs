@@ -10,9 +10,6 @@
 (defconst *is-linux* (eq system-type 'gnu/linux))
 (defconst *is-windows* (memq system-type '(cygwin windows-nt ms-dos)))
 
-;; UTF-8 Default
-(set-language-environment 'UTF-8)
-(set-locale-environment "UTF-8")
 
 ;; Close startup screen
 (setq inhibit-startup-message t)
@@ -59,15 +56,6 @@
 ;; Initial frame size.
 (add-to-list 'default-frame-alist '(width . 80))
 (add-to-list 'default-frame-alist '(height . 25))
-
-;; Encoding
-(prefer-coding-system 'utf-8)
-(set-default-coding-systems 'utf-8)
-(set-terminal-coding-system 'utf-8)
-(set-keyboard-coding-system 'utf-8)
-(setq default-buffer-file-coding-system 'utf-8)
-(unless *is-windows*
-    (set-selection-coding-system 'utf-8))
 
 ;; Yes or No
 (defalias 'yes-or-no-p 'y-or-n-p)

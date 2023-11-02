@@ -25,7 +25,8 @@
     :ensure t
     :after yasnippet)
 ;; Eglot settings
-(use-package eglot)
-
+(use-package eglot
+  :hook (prog-mode . eglot-ensure)
+  :bind ("C-c e f" . eglot-format))
 
 (provide 'tools/lsp)

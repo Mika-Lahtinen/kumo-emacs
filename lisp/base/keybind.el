@@ -4,6 +4,9 @@
 ;;; Here I use default keymap.
 ;;; However, you can add your own bindings here by yourself. 
 
+(setq tab-width 4
+        indent-tab-mode nil)
+
 (provide 'base/keybind)
 
 ;;; init-keybind.el ends here.

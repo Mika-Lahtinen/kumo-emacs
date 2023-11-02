@@ -27,6 +27,7 @@
   :ensure t
   :if window-system
   :hook (company-mode . company-box-mode))
+  
 ;;; Vertico
 (use-package vertico
   :init

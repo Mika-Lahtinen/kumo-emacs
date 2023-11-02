@@ -4,7 +4,7 @@
 ;;; the configuration will be added here to make experiment.
 
 
-
+(setq byte-compile-warnings nil)
 (setq package-enable-at-startup nil)
 
 (provide 'early-init)
