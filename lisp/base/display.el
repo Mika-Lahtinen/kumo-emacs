@@ -18,10 +18,10 @@
         :weight 'Regular))
 
 ;; Color theme
-;;(use-package color-theme-modern
-;;    :ensure t
-;;    :config
-;;    (load-theme 'gtk-ide t))
+(use-package color-theme-modern
+    :load-path "packages/color-theme-modern"
+    :config
+    (load-theme 'desert t))
 
 ;; Icons
 (use-package nerd-icons
