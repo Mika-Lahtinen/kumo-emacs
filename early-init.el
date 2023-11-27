@@ -7,6 +7,10 @@
 (setq byte-compile-warnings nil)
 (setq package-enable-at-startup nil)
 
+;; Initial frame size.
+(add-to-list 'default-frame-alist '(width . 80))
+(add-to-list 'default-frame-alist '(height . 25))
+
 (provide 'early-init)
 
 ;;; early-init.el ends here.

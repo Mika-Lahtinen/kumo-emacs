@@ -54,8 +54,8 @@
 (delete-selection-mode t)
 
 ;; Initial frame size.
-(add-to-list 'default-frame-alist '(width . 80))
-(add-to-list 'default-frame-alist '(height . 25))
+;; (add-to-list 'default-frame-alist '(width . 80))
+;; (add-to-list 'default-frame-alist '(height . 25))
 
 ;; Yes or No
 (defalias 'yes-or-no-p 'y-or-n-p)

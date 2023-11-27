@@ -1,0 +1,12 @@
+[submodule "packages/nerd-icons.el"]
+	path = packages/nerd-icons.el
+	url = https://github.com/rainstormstudio/nerd-icons.el.git
+[submodule "packages/restart-emacs"]
+	path = packages/restart-emacs
+	url = https://github.com/iqbalansari/restart-emacs.git
+[submodule "packages/use-package"]
+	path = packages/use-package
+	url = https://github.com/jwiegley/use-package.git
+[submodule "packages/nerd-icons-dired"]
+	path = packages/nerd-icons-dired
+	url = https://github.com/rainstormstudio/nerd-icons-dired.git

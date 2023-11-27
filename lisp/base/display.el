@@ -18,19 +18,21 @@
         :weight 'Regular))
 
 ;; Color theme
-(use-package color-theme-modern
-    :ensure t
-    :config
-    (load-theme 'gtk-ide t))
+;;(use-package color-theme-modern
+;;    :ensure t
+;;    :config
+;;    (load-theme 'gtk-ide t))
 
 ;; Icons
-(use-package nerd-icons)
+(use-package nerd-icons
+    :load-path "packages/nerd-icons.el")
 
 (use-package nerd-icons-dired
+    :load-path "packages/nerd-icons-dired"
     :after dired
     :hook
     (dired-mode . nerd-icons-dired-mode))
 
-(setq-default truncate-lines t)
+(setq-default truncate-lines nil)
 
 (provide 'base/display)
