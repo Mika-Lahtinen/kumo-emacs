@@ -10,3 +10,6 @@
 [submodule "packages/nerd-icons-dired"]
 	path = packages/nerd-icons-dired
 	url = https://github.com/rainstormstudio/nerd-icons-dired.git
+[submodule "packages/color-theme-modern"]
+	path = packages/color-theme-modern
+	url = https://github.com/emacs-jp/replace-colorthemes.git
