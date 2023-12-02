@@ -18,10 +18,11 @@
         :weight 'Regular))
 
 ;; Color theme
-(use-package color-theme-modern
-    :load-path "packages/color-theme-modern"
-    :config
-    (load-theme 'desert t))
+(add-to-list 'custom-theme-load-path 
+    (concat user-emacs-directory 
+        (convert-standard-filename "packages/color-theme-modern/")))
+(load-theme 'gtk-ide t t)
+(enable-theme 'gtk-ide)
 
 ;; Icons
 (use-package nerd-icons

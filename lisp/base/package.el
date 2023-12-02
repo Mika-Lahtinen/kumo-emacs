@@ -27,5 +27,10 @@
     (setq use-package-verbose t))
 ;;
 
+;; Packages that common used.
+(use-package compat
+    :load-path "packages/compat")
+
+    
 (provide 'base/package)
 ;;; base/package.el ends here.

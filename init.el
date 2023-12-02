@@ -45,8 +45,9 @@
 ;; (require 'base/keybind)
 
 ;; Tools wanna use settings
-;; (require 'tools/freq)
-;; (require 'tools/edit)
+(require 'tools/common)
+(require 'tools/evil)
+;; (require 'tools/meow)
 (require 'tools/org)
 ;; (require 'tools/completion)
 ;; (require 'tools/lsp)

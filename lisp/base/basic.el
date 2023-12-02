@@ -32,6 +32,7 @@
 (setq display-time-24hr-format t)
 (setq display-time-day-and-date t)
 (display-battery-mode 1)
+(setq visible-bell 1)
 
 ;; Stop auto backup files when editing.
 (setq make-backup-files nil)
