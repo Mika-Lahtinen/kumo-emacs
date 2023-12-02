@@ -13,3 +13,45 @@
 [submodule "packages/color-theme-modern"]
 	path = packages/color-theme-modern
 	url = https://github.com/emacs-jp/replace-colorthemes.git
+[submodule "packages/org-fragtog"]
+	path = packages/org-fragtog
+	url = https://github.com/io12/org-fragtog.git
+[submodule "packages/org-modern"]
+	path = packages/org-modern
+	url = https://github.com/minad/org-modern.git
+[submodule "packages/compat"]
+	path = packages/compat
+	url = https://github.com/emacs-compat/compat.git
+[submodule "packages/exec-path-from-shell"]
+	path = packages/exec-path-from-shell
+	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "packages/evil"]
+	path = packages/evil
+	url = https://github.com/emacs-evil/evil.git
+[submodule "packages/meow"]
+	path = packages/meow
+	url = https://github.com/meow-edit/meow.git
+[submodule "packages/format-all"]
+	path = packages/format-all
+	url = https://github.com/lassik/emacs-format-all-the-code.git
+[submodule "packages/iedit"]
+	path = packages/iedit
+	url = https://github.com/victorhge/iedit.git
+[submodule "packages/undo-tree"]
+	path = packages/undo-tree
+	url = https://github.com/emacsmirror/undo-tree.git
+[submodule "packages/inheritenv"]
+	path = packages/inheritenv
+	url = https://github.com/purcell/inheritenv.git
+[submodule "packages/language-id"]
+	path = packages/language-id
+	url = https://github.com/lassik/emacs-language-id.git
+[submodule "packages/evil-collection"]
+	path = packages/evil-collection
+	url = https://github.com/emacs-evil/evil-collection.git
+[submodule "packages/evil-visualstar"]
+	path = packages/evil-visualstar
+	url = https://github.com/bling/evil-visualstar.git
+[submodule "packages/evil-surround"]
+	path = packages/evil-surround
+	url = https://github.com/emacs-evil/evil-surround.git
