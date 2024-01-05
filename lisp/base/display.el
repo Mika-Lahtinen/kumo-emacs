@@ -13,7 +13,7 @@
 
 (when *is-linux*
     (set-face-attribute 'default nil 
-        :font "Dejavu" 
+        :font "Monospace" 
         :height 100
         :weight 'Regular))
 

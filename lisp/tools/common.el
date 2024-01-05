@@ -12,7 +12,7 @@
     :when (or (memq window-system '(mac ns x))
             (unless *is-windows*
               (daemonp)))
-    :init (exec-path-from-shell-initialize))
+    :config (exec-path-from-shell-initialize))
 
 (use-package language-id
   :load-path "packages/language-id")
