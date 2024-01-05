@@ -46,7 +46,7 @@
 
 ;; Tools wanna use settings
 (require 'tools/common)
-(require 'tools/evil)
+;; (require 'tools/evil)
 ;; (require 'tools/meow)
 (require 'tools/org)
 ;; (require 'tools/completion)

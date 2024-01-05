@@ -14,7 +14,7 @@
 (when *is-linux*
     (set-face-attribute 'default nil 
         :font "Monospace" 
-        :height 100
+        :height 120
         :weight 'Regular))
 
 ;; Color theme
