@@ -55,3 +55,33 @@
 [submodule "packages/evil-surround"]
 	path = packages/evil-surround
 	url = https://github.com/emacs-evil/evil-surround.git
+[submodule "packages/company-mode"]
+	path = packages/company-mode
+	url = https://github.com/company-mode/company-mode.git
+[submodule "packages/company-box"]
+	path = packages/company-box
+	url = https://github.com/sebastiencs/company-box.git
+[submodule "packages/vertico"]
+	path = packages/vertico
+	url = https://github.com/minad/vertico.git
+[submodule "packages/orderless"]
+	path = packages/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "packages/marginalia"]
+	path = packages/marginalia
+	url = https://github.com/minad/marginalia.git
+[submodule "packages/consult"]
+	path = packages/consult
+	url = https://github.com/minad/consult.git
+[submodule "packages/embark"]
+	path = packages/embark
+	url = https://github.com/oantolin/embark.git
+[submodule "packages/emacs-which-key"]
+	path = packages/emacs-which-key
+	url = https://github.com/justbur/emacs-which-key.git
+[submodule "packages/dash.el"]
+	path = packages/dash.el
+	url = https://github.com/magnars/dash.el.git
+[submodule "packages/frame-local"]
+	path = packages/frame-local
+	url = https://github.com/sebastiencs/frame-local.git
