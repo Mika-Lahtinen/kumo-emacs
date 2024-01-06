@@ -36,4 +36,10 @@
   :config
   (global-undo-tree-mode))
 
+(use-package dash
+  :load-path "packages/dash.el")
+
+(use-package frame-local
+  :load-path "packages/frame-local")
+
 (provide 'tools/common)

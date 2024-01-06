@@ -10,6 +10,7 @@
 
 ;;; Company-mode
 (use-package company
+  :load-path "packages/company-mode"
   :hook
   (after-init . global-company-mode)
   :bind
@@ -24,24 +25,32 @@
   )
 
 (use-package company-box
-  :ensure t
+  :load-path "packages/company-box"
   :if window-system
   :hook (company-mode . company-box-mode))
   
 ;;; Vertico
 (use-package vertico
-  :init
+  :load-path "packages/vertico"
+  :hook (after-init . vertico-mode)
+  :config
+  ;; (require 'vertico)
   (vertico-mode)
+  (setq vertico-resize nil
+        vertico-count 10
+        vertico-cycle t)
   )
 
 ;;; Orderless
 (use-package orderless
+  :load-path "packages/orderless"
   :init (icomplete-mode)
   :custom
-  (completion-styles '(orderless)))
+  (completion-styles '(orderless basic)))
 
 ;;; Marginalia
 (use-package marginalia
+  :load-path "packages/marginalia"
   :bind 
   (:map minibuffer-local-map
          ("M-A" . marginalia-cycle))
@@ -50,11 +59,13 @@
 
 ;;; Consult
 (use-package consult
+  :load-path "packages/consult"
   :bind
   (("C-s" . consult-line)))
 
 ;;; Embark
 (use-package embark
+  :load-path "packages/embark"
   :bind
   (("C-." . embark-act)
     ("C-;" . embark-dwim))
@@ -67,12 +78,14 @@
                  (window-parameters (mode-line-format . none)))))
 
 (use-package embark-consult
+  :load-path "packages/embark"
   :after (embark consult)
   :hook
   (embark-collect-mode . consult-preview-at-point-mode))
 
 ;;; Which-key
 (use-package which-key
+  :load-path "packages/emacs-which-key"
   :hook
   (after-init . which-key-mode))
 

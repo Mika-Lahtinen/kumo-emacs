@@ -5,8 +5,11 @@
     (setq evil-want-keybinding nil)
     (setq evil-want-integration t)
     (require 'evil)
-    :config
-    (evil-mode 1))
+    :hook
+    (fundamental-mode . evil-local-mode)
+    (prog-mode . evil-local-mode)
+    (text-mode . evil-local-mode)
+    )
 
 (use-package evil-collection
     :load-path "packages/evil-collection"
