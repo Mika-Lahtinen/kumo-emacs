@@ -32,13 +32,20 @@
 ;;; Vertico
 (use-package vertico
   :load-path "packages/vertico"
+  :load-path "packages/vertico/extensions"
   :hook (after-init . vertico-mode)
   :config
-  ;; (require 'vertico)
   (vertico-mode)
+
   (setq vertico-resize nil
         vertico-count 10
         vertico-cycle t)
+  
+  (require 'vertico-repeat)
+  (add-hook 'minibuffer-setup-hook #'vertico-repeat-save)
+  
+  (require 'vertico-directory)
+  (add-hook 'rfn-eshadow-update-overlay-hook #'vertico-directory-tidy)
   )
 
 ;;; Orderless
