@@ -34,6 +34,10 @@
              :hook
              (dired-mode . nerd-icons-dired-mode))
 
+(use-package dired
+             :hook
+             (dired-mode . dired-hide-details-mode))
+
 (setq-default truncate-lines nil)
 
 (provide 'base/display)

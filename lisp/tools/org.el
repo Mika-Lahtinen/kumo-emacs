@@ -10,17 +10,17 @@
           org-startup-with-inline-images t
           org-image-actual-width '(300))))
 
-
-(use-package org-fragtog
-             :load-path "packages/org-fragtog"
-             :after org
-             :hook
-             (org-mode . org-fragtog-mode)
-             :custom
-             (org-format-latex-options
-               (plist-put org-format-latex-options :scale 0.8)
-               (plist-put org-format-latex-options :foreground 'auto)
-               (plist-put org-format-latex-options :background 'auto)))
+;; LaTeX preview
+;; (use-package org-fragtog
+;;              :load-path "packages/org-fragtog"
+;;              :after org
+;;              :hook
+;;              (org-mode . org-fragtog-mode)
+;;              :custom
+;;              (org-format-latex-options
+;;                (plist-put org-format-latex-options :scale 0.8)
+;;                (plist-put org-format-latex-options :foreground 'auto)
+;;                (plist-put org-format-latex-options :background 'auto)))
 
 (use-package org-modern
              :load-path "packages/org-modern"
