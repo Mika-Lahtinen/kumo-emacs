@@ -1,13 +1,13 @@
-;;; init.el --- Load all configurations. 
-; -*- lexical binding: t -*- 
-;;; Commentary: 
+;;; init.el --- Load all configurations.
+; -*- lexical binding: t -*-
+;;; Commentary:
 ;; All confuigurations are divided into many modules here.
 ;; To start or stop using predefined modules,
 ;; just checkout the following 'init' modules here.
 ;; If you want to add your configuration,
 ;; please add into custom.el first,
-;; or you can add into early-init.el 
-;; if you make sure your configuration could applied at startup 
+;; or you can add into early-init.el
+;; if you make sure your configuration could applied at startup
 ;; without any other modules which are in need of being loaded first.
 ;;; Code:
 
@@ -26,15 +26,15 @@
 ;; Adjust garbage collection thresholds during startup, and thereafter
 
 (if (not (display-graphic-p))
-    (progn
-      ;; Enlarge GC 
-      (setq gc-cons-threshold (* 8192 8192))
-      ;; When working with LSP.
-      (setq read-process-output-max (* 1024 1024 128)) ;; 128MB
-      ))
+  (progn
+    ;; Enlarge GC
+    (setq gc-cons-threshold (* 8192 8192))
+    ;; When working with LSP.
+    (setq read-process-output-max (* 1024 1024 128)) ;; 128MB
+    ))
 
 (add-to-list 'load-path
-         (expand-file-name(concat user-emacs-directory "lisp")))
+             (expand-file-name(concat user-emacs-directory "lisp")))
 ;; Basic settings when plugins are not loaded.
 ;; All the configurations in init-basic are common in all versions of Emacs.
 (require 'cl-lib)
@@ -58,7 +58,7 @@
 ;; (require 'lang/javascript)
 ;; (require 'lang/markdown)
 ;; (require 'lang/latex)
-;; 
+;;
 
 ;; Custom settings are located here.
 (setq custom-file (expand-file-name "custom.el" user-emacs-directory))

@@ -8,7 +8,7 @@
 ;;    (yas-reload-all)
 ;;    (defun company-mode/backend-with-yas (backend)
 ;;    (if (and (listp backend) (member 'company-yasnippet backend))
-;;	    backend
+;;      backend
 ;;        (append (if (consp backend) backend (list backend))
 ;;              '(:with company-yasnippet))))
 ;;    (setq company-backends (mapcar #'company-mode/backend-with-yas company-backends))
@@ -26,7 +26,7 @@
 ;;    :after yasnippet)
 ;; Eglot settings
 (use-package eglot
-  :hook (prog-mode . eglot-ensure)
-  :bind ("C-c e f" . eglot-format))
+             :hook (prog-mode . eglot-ensure)
+             :bind ("C-c e f" . eglot-format))
 
 (provide 'tools/lsp)

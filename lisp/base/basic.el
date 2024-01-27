@@ -1,7 +1,7 @@
 ;;; init-basic.el .
 ;; -*- lexical-binding: t -*-
 ;;; Comment:
-;; These configurations could be used in 
+;; These configurations could be used in
 ;; all versios of Emacs.
 ;;; Code:
 
