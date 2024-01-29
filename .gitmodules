@@ -85,3 +85,9 @@
 [submodule "packages/frame-local"]
 	path = packages/frame-local
 	url = https://github.com/sebastiencs/frame-local.git
+[submodule "packages/yasnippet"]
+	path = packages/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "packages/yasnippet-snippets"]
+	path = packages/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
