@@ -22,6 +22,8 @@
              (setq company-minimum-prefix-length 1)
              (setq company-tooltip-align-annotations t)
              (setq company-tooltip-limit 6)
+             (setq company-backends
+                   '((company-dabbrev :separate company-dabbrev-code company-yasnippet company-capf)))
              )
 
 (use-package company-box
