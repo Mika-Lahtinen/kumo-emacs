@@ -52,7 +52,7 @@
 ;; (require 'tools/lsp)
 
 ;; Programming language configurations
-;; (require 'lang/cpp)
+;; (require 'lang/cc)
 ;; (require 'lang/rust)
 ;; (require 'lang/elixir)
 ;; (require 'lang/javascript)

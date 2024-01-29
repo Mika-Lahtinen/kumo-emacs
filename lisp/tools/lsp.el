@@ -1,7 +1,7 @@
 
 ;; YASnippets settings
 ;;(use-package yasnippet
-;;    :ensure t
+;;    :load-path "packages/yasnippet"
 ;;    :hook
 ;;    (prog-mode . yas-minor-mode)
 ;;    :config
@@ -22,8 +22,10 @@
 ;;    )
 ;;
 ;;(use-package yasnippet-snippets
+;;    :load-path "packages/yasnippet-snippets"
 ;;    :ensure t
 ;;    :after yasnippet)
+
 ;; Eglot settings
 (use-package eglot
              :hook (prog-mode . eglot-ensure)
