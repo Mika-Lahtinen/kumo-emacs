@@ -94,3 +94,6 @@
 [submodule "packages/eglot"]
 	path = packages/eglot
 	url = https://github.com/joaotavora/eglot.git
+[submodule "packages/external-completion"]
+	path = packages/external-completion
+	url = https://github.com/emacs-straight/external-completion.git
