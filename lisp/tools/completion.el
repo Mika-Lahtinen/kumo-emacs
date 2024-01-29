@@ -39,6 +39,7 @@
 
              (setq vertico-resize nil
                    vertico-count 10
+                   vertico-preselect 'prompt
                    vertico-cycle t)
 
              (require 'vertico-repeat)
