@@ -3,11 +3,13 @@
              :load-path "packages/pyim"
              :bind
              ("C-\\" . toggle-input-method)
-             :config
+             :init
              (require 'pyim)
              (require 'pyim-basedict)
              (pyim-basedict-enable)
-             (setq default-input-method "pyim"))
+             (setq default-input-method "pyim")
+             (setq pyim-cloudim 'baidu)
+             (pyim-default-scheme 'microsoft-shuangpin))
 
 (use-package pyim-tsinghua-dict
              :load-path "packages/pyim-tsinghua-dict"
