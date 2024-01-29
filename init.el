@@ -49,7 +49,7 @@
 (require 'tools/evil)
 (require 'tools/org)
 (require 'tools/completion)
-;; (require 'tools/lsp)
+(require 'tools/lsp)
 
 ;; Programming language configurations
 ;; (require 'lang/cc)
