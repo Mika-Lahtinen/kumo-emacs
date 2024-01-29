@@ -1,3 +1,8 @@
+;; Plugins before loading YAsnippets
+(use-package external-completion
+             :load-path "packages/external-completion"
+             :init
+             (require 'external-completion))
 
 ;; YASnippets settings
 (use-package yasnippet
