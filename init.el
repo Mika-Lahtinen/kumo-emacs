@@ -50,6 +50,7 @@
 (require 'tools/org)
 (require 'tools/completion)
 (require 'tools/lsp)
+(require 'tools/chinese)
 
 ;; Programming language configurations
 ;; (require 'lang/cc)

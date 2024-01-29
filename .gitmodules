@@ -97,3 +97,9 @@
 [submodule "packages/external-completion"]
 	path = packages/external-completion
 	url = https://github.com/emacs-straight/external-completion.git
+[submodule "packages/pyim"]
+	path = packages/pyim
+	url = https://github.com/tumashu/pyim.git
+[submodule "packages/pyim-tsinghua-dict"]
+	path = packages/pyim-tsinghua-dict
+	url = https://github.com/redguardtoo/pyim-tsinghua-dict.git
