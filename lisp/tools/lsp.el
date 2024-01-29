@@ -2,6 +2,8 @@
 ;; YASnippets settings
 (use-package yasnippet
              :load-path "packages/yasnippet"
+             :init
+             (require 'yasnippet)
              :hook
              (prog-mode . yas-minor-mode)
              :config
@@ -23,8 +25,9 @@
 
 (use-package yasnippet-snippets
              :load-path "packages/yasnippet-snippets"
-             :ensure t
-             :after yasnippet)
+             :after yasnippet
+             :init
+             (require 'yasnippet-snippets))
 
 ;; Eglot settings
 (use-package eglot
