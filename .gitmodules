@@ -91,3 +91,6 @@
 [submodule "packages/yasnippet-snippets"]
 	path = packages/yasnippet-snippets
 	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "packages/eglot"]
+	path = packages/eglot
+	url = https://github.com/joaotavora/eglot.git
