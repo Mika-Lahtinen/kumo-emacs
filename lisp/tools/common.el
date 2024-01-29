@@ -49,4 +49,6 @@
 (use-package frame-local
              :load-path "packages/frame-local")
 
+(use-package xr
+  :load-path "packages/xr")
 (provide 'tools/common)
