@@ -39,9 +39,11 @@
 
 (use-package undo-tree
              :load-path "packages/undo-tree"
-             :config
+             :init
              (require 'undo-tree)
-             (global-undo-tree-mode))
+             (global-undo-tree-mode)
+             :custom
+             (undo-tree-auto-save-history nil))
 
 (use-package dash
              :load-path "packages/dash.el")
@@ -50,5 +52,5 @@
              :load-path "packages/frame-local")
 
 (use-package xr
-  :load-path "packages/xr")
+             :load-path "packages/xr")
 (provide 'tools/common)

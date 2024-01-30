@@ -52,6 +52,7 @@
 ;; Some settings for editting a file
 (global-auto-revert-mode t)
 (delete-selection-mode t)
+(setq auto-save-default nil)
 
 ;; Yes or No
 (defalias 'yes-or-no-p 'y-or-n-p)

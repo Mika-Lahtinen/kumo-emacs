@@ -106,3 +106,9 @@
 [submodule "packages/xr"]
 	path = packages/xr
 	url = https://github.com/mattiase/xr.git
+[submodule "packages/elixir-mode"]
+	path = packages/elixir-mode
+	url = https://github.com/elixir-editors/emacs-elixir.git
+[submodule "packages/exunit.el"]
+	path = packages/exunit.el
+	url = https://github.com/ananthakumaran/exunit.el.git
