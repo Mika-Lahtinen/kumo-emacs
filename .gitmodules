@@ -103,6 +103,3 @@
 [submodule "packages/pyim-tsinghua-dict"]
 	path = packages/pyim-tsinghua-dict
 	url = https://github.com/redguardtoo/pyim-tsinghua-dict.git
-[submodule "packages/xr"]
-	path = packages/xr
-	url = https://github.com/emacs-straight/xr.git
