@@ -1,10 +1,11 @@
 (use-package elixir-mode
-    :load-path "packages/elixir-mode"
-    :mode "\\.elixir2\\'"
-    :hook ((prog-mode . elixir-mode)
-            (eglot-ensure . elixir-mode))
-    :config
-    (require 'elixir-mode)
+;;     :load-path "packages/elixir-mode"
+;;     :mode "\\.elixir2\\'"
+;;     :hook ((prog-mode . elixir-mode)
+;;             (eglot-ensure . elixir-mode))
+;;     :config
+;;     (require 'elixir-mode)
+    :ensure t
     )
 
 (use-package exunit
