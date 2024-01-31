@@ -54,6 +54,9 @@
 (use-package xr
              :load-path "packages/xr")
 
+(use-package queue
+  :load-path "packages/queue")
+  
 (use-package amx
              :load-path "packages/amx"
              :init (amx-mode))

@@ -115,3 +115,6 @@
 [submodule "packages/amx"]
 	path = packages/amx
 	url = https://github.com/DarwinAwardWinner/amx.git
+[submodule "packages/queue"]
+	path = packages/queue
+	url = https://github.com/emacs-straight/queue.git
