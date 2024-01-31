@@ -118,3 +118,6 @@
 [submodule "packages/queue"]
 	path = packages/queue
 	url = https://github.com/emacs-straight/queue.git
+[submodule "packages/s.el"]
+	path = packages/s.el
+	url = https://github.com/magnars/s.el.git

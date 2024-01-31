@@ -54,11 +54,16 @@
 (use-package xr
              :load-path "packages/xr")
 
+(use-package s
+             :load-path "packages/s.el")
+
 (use-package queue
-  :load-path "packages/queue")
-  
+             :load-path "packages/queue"
+             :config (require 'queue))
+
 (use-package amx
              :load-path "packages/amx"
+             :after (s queue)
              :init (amx-mode))
 
 (provide 'tools/common)
