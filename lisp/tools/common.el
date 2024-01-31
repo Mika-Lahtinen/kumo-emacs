@@ -53,4 +53,9 @@
 
 (use-package xr
              :load-path "packages/xr")
+
+(use-package amx
+             :load-path "packages/amx"
+             :init (amx-mode))
+
 (provide 'tools/common)
