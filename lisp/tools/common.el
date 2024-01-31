@@ -64,6 +64,8 @@
 
 (use-package amx
              :load-path "packages/amx"
-             :init (amx-mode))
+             :init
+             (require 'amx) 
+             (amx-mode))
 
 (provide 'tools/common)
