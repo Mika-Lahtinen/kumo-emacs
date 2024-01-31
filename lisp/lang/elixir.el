@@ -1,8 +1,9 @@
 (use-package elixir-mode
     :load-path "packages/elixir-mode"
-    :autoload (elixir-mode)
     :mode "\\.elixir2\\'"
-    :hook (elixir-mode . eglot-ensure)
+    :hook (elixir-mode . (prog-mode eglot-ensure))
+    :config
+    (require 'elixir-mode)
     )
 
 (use-package exunit
