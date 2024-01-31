@@ -37,10 +37,13 @@
 (use-package iedit
              :load-path "packages/iedit")
 
+(use-package queue
+             :load-path "packages/queue")
+
 (use-package undo-tree
              :load-path "packages/undo-tree"
+             :after queue
              :init
-             (require 'undo-tree)
              (global-undo-tree-mode)
              :custom
              (undo-tree-auto-save-history nil))
@@ -57,13 +60,10 @@
 (use-package s
              :load-path "packages/s.el")
 
-(use-package queue
-             :load-path "packages/queue"
-             :config (require 'queue))
+
 
 (use-package amx
              :load-path "packages/amx"
-             :after (s queue)
              :init (amx-mode))
 
 (provide 'tools/common)
