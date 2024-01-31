@@ -68,6 +68,9 @@
 ;; (setq ido-everywhere t)
 ;; (ido-mode t)
 
+;; Fix LISP evaluation depth errors.
+(setq max-lisp-eval-depth 10000)
+
 (provide 'base/basic)
 
 ;;; init-basic.el ends here.
