@@ -69,7 +69,7 @@
 ;; (ido-mode t)
 
 ;; Fix LISP evaluation depth errors.
-(setq max-lisp-eval-depth 10000)
+;; (setq max-lisp-eval-depth 10000)
 
 (provide 'base/basic)
 
