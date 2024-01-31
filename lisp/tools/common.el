@@ -60,12 +60,10 @@
 (use-package s
              :load-path "packages/s.el")
 
-
-
 (use-package amx
              :load-path "packages/amx"
              :init
-             (require 'amx) 
+             (require 'amx)
              (amx-mode))
 
 (provide 'tools/common)
