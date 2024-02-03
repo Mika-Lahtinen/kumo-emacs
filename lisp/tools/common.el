@@ -70,6 +70,7 @@
              :load-path "packages/smartparens"
              :init
              (require 'smartparens)
+             (smartparens-mode t)
              :hook (prog-mode text-mode)
              :config
              (require 'smartparens-config))
