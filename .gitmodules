@@ -115,3 +115,6 @@
 [submodule "packages/s.el"]
 	path = packages/s.el
 	url = https://github.com/magnars/s.el.git
+[submodule "packages/puni"]
+	path = packages/puni
+	url = https://github.com/AmaiKinono/puni.git

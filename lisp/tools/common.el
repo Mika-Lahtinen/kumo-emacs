@@ -67,7 +67,7 @@
              (amx-mode))
 
 (use-package puni
-             :ensure t
+             :load-path "packages/puni"
              :diminish
              :hook (prog-mode . puni-mode))
 
