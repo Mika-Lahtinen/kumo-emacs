@@ -124,3 +124,6 @@
 [submodule "packages/shrink-path"]
 	path = packages/shrink-path
 	url = https://github.com/emacsmirror/shrink-path.git
+[submodule "packages/f.el"]
+	path = packages/f.el
+	url = https://github.com/rejeep/f.el.git
