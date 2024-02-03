@@ -11,8 +11,7 @@
 ;;; Company-mode
 (use-package company
              :load-path "packages/company-mode"
-             :init
-             (require 'company)
+             :diminish
              :hook
              (after-init . global-company-mode)
              :bind

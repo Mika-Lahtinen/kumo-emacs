@@ -24,6 +24,7 @@
 ;; great for programmers
 (use-package format-all
              :load-path "packages/format-all"
+             :diminish
              ;; 开启保存时自动格式化
              :hook (prog-mode . format-all-mode)
              ;; 绑定一个手动格式化的快捷键
