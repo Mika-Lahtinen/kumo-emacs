@@ -66,11 +66,9 @@
              (require 'amx)
              (amx-mode))
 
-(use-package smartparens-mode
-             :ensure smartparens
+(use-package puni
+             :ensure t
              :diminish
-             :hook (prog-mode text-mode)
-             :config
-             (require 'smartparens-config))
+             :hook (prog-mode))
 
 (provide 'tools/common)
