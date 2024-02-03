@@ -5,6 +5,7 @@
 
 
 (setq byte-compile-warnings nil)
+(setq native-comp-async-report-warnings-errors nil)
 (setq package-enable-at-startup nil)
 
 ;; Initial frame size.
