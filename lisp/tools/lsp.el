@@ -1,6 +1,7 @@
 (use-package flymake
   :hook (prog-mode . flymake-mode)
   :config
+  (setq flymake-no-changes-timeout nil)
   (global-set-key (kbd "M-n") #'flymake-goto-next-error)
   (global-set-key (kbd "M-p") #'flymake-goto-prev-error))
 
