@@ -22,4 +22,7 @@
 (use-package s
              :load-path "packages/s.el")
 
+(use-package f
+             :load-path "packages/f.el")
+
 (provide 'base/base-package)
