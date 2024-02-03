@@ -67,10 +67,8 @@
              (amx-mode))
 
 (use-package smartparens
-             :load-path "packages/smartparens"
-             :init
-             (require 'smartparens)
-             (smartparens-mode t)
+             :ensure t
+             :diminish
              :hook (prog-mode text-mode)
              :config
              (require 'smartparens-config))
