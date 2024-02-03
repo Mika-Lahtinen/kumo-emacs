@@ -69,6 +69,6 @@
 (use-package puni
              :ensure t
              :diminish
-             :hook (prog-mode))
+             :hook (prog-mode . puni-mode))
 
 (provide 'tools/common)
