@@ -66,8 +66,8 @@
              (require 'amx)
              (amx-mode))
 
-(use-package smartparens
-             :ensure t
+(use-package smartparens-mode
+             :ensure smartparens
              :diminish
              :hook (prog-mode text-mode)
              :config
