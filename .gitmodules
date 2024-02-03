@@ -118,3 +118,6 @@
 [submodule "packages/puni"]
 	path = packages/puni
 	url = https://github.com/AmaiKinono/puni.git
+[submodule "packages/doom-modeline"]
+	path = packages/doom-modeline
+	url = https://github.com/seagle0128/doom-modeline.git

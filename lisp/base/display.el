@@ -38,6 +38,10 @@
              :hook
              (dired-mode . dired-hide-details-mode))
 
+(use-package doom-modeline
+             :load-path "packages/doom-modeline"
+             :hook (after-init . doom-modeline-mode))
+
 (setq-default truncate-lines nil)
 
 (provide 'base/display)
