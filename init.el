@@ -38,7 +38,8 @@
 ;; Basic settings when plugins are not loaded.
 ;; All the configurations in init-basic are common in all versions of Emacs.
 (require 'cl-lib)
-(require 'base/package)
+(require 'base/package-source)
+(require 'base/base-package)
 (require 'base/basic)
 (require 'base/locale)
 (require 'base/display)

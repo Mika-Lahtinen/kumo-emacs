@@ -15,9 +15,6 @@
              (require 'exec-path-from-shell)
              (exec-path-from-shell-initialize))
 
-(use-package language-id
-             :load-path "packages/language-id")
-
 (use-package inheritenv
              :load-path "packages/inheritenv")
 
@@ -38,9 +35,6 @@
 (use-package iedit
              :load-path "packages/iedit")
 
-(use-package queue
-             :load-path "packages/queue")
-
 (use-package undo-tree
              :load-path "packages/undo-tree"
              :after queue
@@ -49,17 +43,8 @@
              :custom
              (undo-tree-auto-save-history nil))
 
-(use-package dash
-             :load-path "packages/dash.el")
-
 (use-package frame-local
              :load-path "packages/frame-local")
-
-(use-package xr
-             :load-path "packages/xr")
-
-(use-package s
-             :load-path "packages/s.el")
 
 (use-package amx
              :load-path "packages/amx"

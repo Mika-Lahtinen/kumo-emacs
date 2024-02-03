@@ -121,3 +121,6 @@
 [submodule "packages/doom-modeline"]
 	path = packages/doom-modeline
 	url = https://github.com/seagle0128/doom-modeline.git
+[submodule "packages/shrink-path"]
+	path = packages/shrink-path
+	url = https://github.com/emacsmirror/shrink-path.git
