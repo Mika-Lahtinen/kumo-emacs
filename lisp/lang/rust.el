@@ -1,4 +1,5 @@
 (use-package rustic
+             :ensure t
              :defer t
              :config
              (progn
@@ -6,6 +7,7 @@
                (setq rustic-format-on-save t)
                ))
 
-(use-package rust-playground)
+(use-package rust-playground
+             :ensure t)
 
 (provide 'lang/rust)

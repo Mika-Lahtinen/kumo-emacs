@@ -42,13 +42,14 @@
 (require 'base/basic)
 (require 'base/locale)
 (require 'base/display)
-;; (require 'base/keybind)
+(require 'base/keybind)
 
 ;; Tools wanna use settings
 (require 'tools/common)
 (require 'tools/evil)
 (require 'tools/org)
 (require 'tools/completion)
+(require 'tools/snippets)
 (require 'tools/lsp)
 (require 'tools/chinese)
 

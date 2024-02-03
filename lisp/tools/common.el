@@ -66,4 +66,10 @@
              (require 'amx)
              (amx-mode))
 
+(use-package smartparens
+             :load-path "packages/smartparens"
+             :hook (prog-mode text-mode)
+             :config
+             (require 'smartparens-config))
+
 (provide 'tools/common)

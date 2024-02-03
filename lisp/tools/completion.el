@@ -37,8 +37,6 @@
              :load-path "packages/vertico/extensions"
              :hook (after-init . vertico-mode)
              :config
-             (vertico-mode)
-
              (setq vertico-resize nil
                    vertico-count 10
                    vertico-preselect 'prompt

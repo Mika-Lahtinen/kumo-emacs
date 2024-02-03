@@ -1,7 +1,7 @@
 (setq package-archives '(
-    ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-    ("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-    ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+                         ("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+                         ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 ;;
 (setq package-check-signature nil)
 ;;(require 'package)
