@@ -68,6 +68,8 @@
 
 (use-package smartparens
              :load-path "packages/smartparens"
+             :init
+             (require 'smartparens)
              :hook (prog-mode text-mode)
              :config
              (require 'smartparens-config))
