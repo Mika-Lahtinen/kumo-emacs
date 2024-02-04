@@ -11,9 +11,6 @@
 
 (use-package mix
              :load-path "packages/mix"
-             :hook (elixir-mode . mix-minor-mode)
-             )
-
-(require 'mix)
+             :hook (elixir-mode . mix-minor-mode))
 
 (provide 'lang/elixir)

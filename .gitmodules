@@ -136,3 +136,6 @@
 [submodule "packages/rg.el"]
 	path = packages/rg.el
 	url = https://github.com/dajva/rg.el.git
+[submodule "packages/mix"]
+	path = packages/mix
+	url = https://github.com/ayrat555/mix.el.git
