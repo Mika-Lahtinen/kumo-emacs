@@ -3,7 +3,7 @@
              :load-path "packages/pyim"
              :bind
              ("C-\\" . toggle-input-method)
-             :init
+             :config
              (require 'pyim)
              (setq default-input-method "pyim")
              (setq pyim-cloudim 'baidu)

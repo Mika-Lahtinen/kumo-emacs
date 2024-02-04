@@ -127,3 +127,9 @@
 [submodule "packages/f.el"]
 	path = packages/f.el
 	url = https://github.com/rejeep/f.el.git
+[submodule "packages/elixir-mode"]
+	path = packages/elixir-mode
+	url = https://github.com/elixir-editors/emacs-elixir.git
+[submodule "packages/exunit"]
+	path = packages/exunit
+	url = https://github.com/ananthakumaran/exunit.el.git

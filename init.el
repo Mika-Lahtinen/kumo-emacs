@@ -57,7 +57,7 @@
 ;; Programming language configurations
 ;; (require 'lang/cc)
 ;; (require 'lang/rust)
-;; (require 'lang/elixir)
+(require 'lang/elixir)
 ;; (require 'lang/javascript)
 ;; (require 'lang/markdown)
 ;; (require 'lang/latex)
