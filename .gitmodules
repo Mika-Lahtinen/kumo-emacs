@@ -133,3 +133,6 @@
 [submodule "packages/exunit"]
 	path = packages/exunit
 	url = https://github.com/ananthakumaran/exunit.el.git
+[submodule "packages/rg.el"]
+	path = packages/rg.el
+	url = https://github.com/dajva/rg.el.git

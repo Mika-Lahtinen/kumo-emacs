@@ -57,4 +57,7 @@
              :diminish
              :hook (prog-mode . puni-mode))
 
+(use-package rg
+             :load-path "packages/rg.el")
+
 (provide 'tools/common)
