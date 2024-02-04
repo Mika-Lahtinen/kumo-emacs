@@ -139,3 +139,12 @@
 [submodule "packages/mix"]
 	path = packages/mix
 	url = https://github.com/ayrat555/mix.el.git
+[submodule "packages/rust-mode"]
+	path = packages/rust-mode
+	url = https://github.com/rust-lang/rust-mode.git
+[submodule "packages/rustic"]
+	path = packages/rustic
+	url = https://github.com/brotzeit/rustic.git
+[submodule "packages/cargo-mode"]
+	path = packages/cargo-mode
+	url = https://github.com/ayrat555/cargo-mode.git
