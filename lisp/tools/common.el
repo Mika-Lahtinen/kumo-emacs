@@ -30,6 +30,7 @@
              (setq-default format-all-formatters '(
                                                    ("C" (clang-format "--style=microsoft"))
                                                    ("C++" (clang-format "--style=microsoft"))
+                                                   ("Elixir" (mix "format"))
                                                    )))
 
 (use-package iedit
