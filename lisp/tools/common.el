@@ -58,9 +58,14 @@
              :hook (prog-mode . puni-mode))
 
 (use-package rg
-             :load-path "packages/rg.el")
+             :load-path "packages/rg.el"
+             :init
+             (require 'rg)
+             (rg-enable-default-bindings))
 
 (use-package wgrep
-             :load-path "packages/wgrep")
+             :load-path "packages/wgrep"
+             :init
+             (require 'wgrep))
 
 (provide 'tools/common)
