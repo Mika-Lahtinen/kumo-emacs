@@ -7,3 +7,5 @@ org-persist/
 custom.el
 recentf
 eshell/
+amx-items
+snippets/
