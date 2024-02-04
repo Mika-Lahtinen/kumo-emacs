@@ -1,5 +1,6 @@
 (use-package elixir-mode
              :load-path "packages/elixir-mode"
+             :mode ("\.ex$" . elixir-mode)
              :config
              (require 'elixir-mode))
 
