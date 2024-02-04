@@ -148,3 +148,6 @@
 [submodule "packages/cargo-mode"]
 	path = packages/cargo-mode
 	url = https://github.com/ayrat555/cargo-mode.git
+[submodule "packages/wgrep"]
+	path = packages/wgrep
+	url = https://github.com/mhayashi1120/Emacs-wgrep.git

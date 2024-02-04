@@ -60,4 +60,7 @@
 (use-package rg
              :load-path "packages/rg.el")
 
+(use-package wgrep
+             :load-path "packages/wgrep")
+
 (provide 'tools/common)
