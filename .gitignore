@@ -6,3 +6,4 @@ transient/
 org-persist/
 custom.el
 recentf
+eshell/
