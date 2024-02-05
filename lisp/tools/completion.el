@@ -37,6 +37,7 @@
       (corfu-auto t)
       :init
       (require 'corfu)
+      :config
       (global-corfu-mode))
 
 ;;; Vertico
