@@ -157,3 +157,6 @@
 [submodule "packages/lsp-bridge"]
 	path = packages/lsp-bridge
 	url = https://github.com/manateelazycat/lsp-bridge.git
+[submodule "packages/corfu"]
+	path = packages/corfu
+	url = https://github.com/minad/corfu.git
