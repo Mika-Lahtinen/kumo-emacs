@@ -13,8 +13,8 @@
 
 (use-package lsp-bridge
     :load-path "packages/lsp-bridge"
-    :hook (after-init . global-lsp-bridge-mode)
     :config
+    (global-lsp-bridge-mode)
     (setq lsp-bridge-enable-which-key-integration t))
     
 
