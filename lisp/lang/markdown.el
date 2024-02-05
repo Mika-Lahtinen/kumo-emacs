@@ -1,4 +1,5 @@
 (use-package markdown-mode
-             :ensure t)
+             :load-path "packages/markdown-mode"
+             :mode "\\.md\\'")
 
 (provide 'lang/markdown)

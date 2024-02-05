@@ -59,7 +59,7 @@
 (require 'lang/rust)
 ;; (require 'lang/elixir)
 ;; (require 'lang/javascript)
-;; (require 'lang/markdown)
+(require 'lang/markdown)
 ;; (require 'lang/latex)
 ;;
 
