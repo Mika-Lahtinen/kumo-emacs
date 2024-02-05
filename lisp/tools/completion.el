@@ -33,6 +33,7 @@
 (use-package corfu
       :load-path "packages/corfu"
       :init
+      (require 'corfu)
       (global-corfu-mode))
 
 ;;; Vertico
