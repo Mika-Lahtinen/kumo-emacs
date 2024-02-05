@@ -7,7 +7,7 @@
 ;; YASnippets settings
 (use-package yasnippet
              :load-path "packages/yasnippet"
-             :diminish
+             :diminish yas-minor-mode
              :hook
              (prog-mode . yas-minor-mode)
              :config

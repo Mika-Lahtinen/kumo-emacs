@@ -31,14 +31,13 @@
 ;;              :hook (company-mode . company-box-mode))
 
 (use-package corfu
-      :load-path "packages/corfu"
-      :custom
-      (corfu-cycle t)
-      (corfu-auto t)
-      :init
-      (require 'corfu)
-      :config
-      (global-corfu-mode))
+             :load-path "packages/corfu"
+             :custom
+             ((corfu-cycle t)
+              (corfu-auto t))
+             :init
+             (require 'corfu)
+             (global-corfu-mode))
 
 ;;; Vertico
 (use-package vertico
