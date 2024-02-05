@@ -32,6 +32,9 @@
 
 (use-package corfu
       :load-path "packages/corfu"
+      :custom
+      (corfu-cycle t)
+      (corfu-auto t)
       :init
       (require 'corfu)
       (global-corfu-mode))
