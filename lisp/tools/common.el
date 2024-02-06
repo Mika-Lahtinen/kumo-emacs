@@ -39,7 +39,6 @@
              :load-path "packages/undo-tree"
              :after queue
              :init
-             (require 'undo-tree)
              (global-undo-tree-mode)
              :custom
              (undo-tree-auto-save-history nil))

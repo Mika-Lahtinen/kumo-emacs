@@ -5,11 +5,12 @@
              (setq evil-want-keybinding nil)
              (setq evil-want-integration t)
              (require 'evil)
+             :custom
+             (evil-set-undo-system 'undo-tree)
              :hook
              (fundamental-mode . evil-local-mode)
              (prog-mode . evil-local-mode)
              (text-mode . evil-local-mode)
-             (evil-local-mode . undo-tree-turn-on-mode)
              )
 
 (use-package evil-collection
