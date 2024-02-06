@@ -9,35 +9,35 @@
 ;;; Code:
 
 ;;; Company-mode
-;; (use-package company
-;;              :load-path "packages/company-mode"
-;;              :diminish company
-;;              :hook
-;;              (after-init . global-company-mode)
-;;              :bind
-;;              (:map company-active-map
-;;                    ("C-n" . company-select-next)
-;;                    ("C-p" . company-select-previous))
-;;              ("<tab>" . company-complete)
-;;              :config
-;;              (setq company-minimum-prefix-length 1)
-;;              (setq company-tooltip-align-annotations t)
-;;              (setq company-tooltip-limit 6)
-;;              )
+(use-package company
+             :load-path "packages/company-mode"
+             :diminish company
+             :hook
+             (after-init . global-company-mode)
+             :bind
+             (:map company-active-map
+                   ("C-n" . company-select-next)
+                   ("C-p" . company-select-previous))
+             ("<tab>" . company-complete)
+             :config
+             (setq company-minimum-prefix-length 1)
+             (setq company-tooltip-align-annotations t)
+             (setq company-tooltip-limit 6)
+             )
 
-;; (use-package company-box
-;;              :load-path "packages/company-box"
-;;              :if window-system
-;;              :hook (company-mode . company-box-mode))
+(use-package company-box
+             :load-path "packages/company-box"
+             :if window-system
+             :hook (company-mode . company-box-mode))
 
-(use-package corfu
-             :load-path "packages/corfu"
-             :custom
-             ((corfu-cycle t)
-              (corfu-auto t))
-             :init
-             (require 'corfu)
-             (global-corfu-mode))
+;; (use-package corfu
+;;              :load-path "packages/corfu"
+;;              :custom
+;;              ((corfu-cycle t)
+;;               (corfu-auto t))
+;;              :init
+;;              (require 'corfu)
+;;              (global-corfu-mode))
 
 ;;; Vertico
 (use-package vertico
@@ -70,7 +70,7 @@
              :bind
              (:map minibuffer-local-map
                    ("M-A" . marginalia-cycle))
-             :config
+             :init
              (marginalia-mode))
 
 ;;; Consult

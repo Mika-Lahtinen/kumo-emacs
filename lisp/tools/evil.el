@@ -9,7 +9,7 @@
              (fundamental-mode . evil-local-mode)
              (prog-mode . evil-local-mode)
              (text-mode . evil-local-mode)
-             (undo-tree-turn-on-mode . evil-local-mode)
+             (evil-local-mode . undo-tree-turn-on-mode)
              )
 
 (use-package evil-collection
