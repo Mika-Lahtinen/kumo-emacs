@@ -71,6 +71,7 @@
              (:map minibuffer-local-map
                    ("M-A" . marginalia-cycle))
              :init
+             (require 'marginalia)
              (marginalia-mode))
 
 ;;; Consult
