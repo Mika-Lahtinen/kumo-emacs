@@ -38,29 +38,29 @@
 ;; Basic settings when plugins are not loaded.
 ;; All the configurations in init-basic are common in all versions of Emacs.
 (require 'cl-lib)
-(require 'base/package-source)
-(require 'base/base-package)
-(require 'base/basic)
-(require 'base/locale)
-(require 'base/display)
-(require 'base/keybind)
+(require 'init-package-source)
+(require 'init-base-package)
+(require 'init-basic)
+(require 'init-locale)
+(require 'init-display)
+(require 'init-keybind)
 
 ;; Tools wanna use settings
-(require 'tools/common)
-(require 'tools/evil)
-(require 'tools/org)
-(require 'tools/completion)
-(require 'tools/snippets)
-(require 'tools/lsp)
-(require 'tools/chinese)
+(require 'init-tools-common)
+(require 'init-tools-evil)
+(require 'init-tools-org)
+(require 'init-tools-completion)
+(require 'init-tools-snippets)
+(require 'init-tools-lsp)
+(require 'init-tools-chinese)
 
 ;; Programming language configurations
-;; (require 'lang/cc)
-(require 'lang/rust)
-;; (require 'lang/elixir)
-;; (require 'lang/javascript)
-(require 'lang/markdown)
-;; (require 'lang/latex)
+;; (require 'init-lang-cc)
+(require 'init-lang-rust)
+;; (require 'init-lang-elixir)
+;; (require 'init-lang-javascript)
+(require 'init-lang-markdown)
+;; (require 'init-lang-latex)
 ;;
 
 ;; Custom settings are located here.

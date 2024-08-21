@@ -1,1 +1,1 @@
-(provide 'lang/javascript)
+(provide 'init-lang-javascript)

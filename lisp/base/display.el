@@ -25,23 +25,6 @@
 (enable-theme 'gtk-ide)
 
 ;; Icons
-(use-package nerd-icons
-             :load-path "packages/nerd-icons.el")
-
-(use-package nerd-icons-dired
-             :load-path "packages/nerd-icons-dired"
-             :after dired
-             :hook
-             (dired-mode . nerd-icons-dired-mode))
-
-(use-package dired
-             :hook
-             (dired-mode . dired-hide-details-mode))
-
-(use-package doom-modeline
-             :load-path "packages/doom-modeline"
-             :hook (after-init . doom-modeline-mode))
-
 (setq-default truncate-lines nil)
 
-(provide 'base/display)
+(provide 'init-display)

@@ -1,2 +1,2 @@
 
-(provide 'lang/LaTeX)
+(provide 'init-lang-LaTeX)

@@ -71,7 +71,7 @@
 ;; Fix LISP evaluation depth errors.
 ;; (setq max-lisp-eval-depth 10000)
 
-(provide 'base/basic)
+(provide 'init-basic)
 
 ;;; init-basic.el ends here.
 

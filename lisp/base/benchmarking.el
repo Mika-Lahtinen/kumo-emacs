@@ -74,5 +74,5 @@
 (add-hook 'after-init-hook 'sanityinc/show-init-time)
 
 
-(provide 'base/benchmarking)
+(provide 'init-benchmarking)
 ;;; init-benchmarking.el ends here

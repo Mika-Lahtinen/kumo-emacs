@@ -27,5 +27,5 @@
   (setq use-package-verbose t))
 ;;
 
-(provide 'base/package-source)
+(provide 'init-package-source)
 ;;; base/package-source.el ends here.

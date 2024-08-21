@@ -12,4 +12,4 @@
 (unless *is-windows*
   (set-selection-coding-system 'utf-8))
 
-(provide 'base/locale)
+(provide 'init-locale)

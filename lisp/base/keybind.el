@@ -7,6 +7,6 @@
 (setq tab-width 4
       indent-tab-mode nil)
 
-(provide 'base/keybind)
+(provide 'init-keybind)
 
 ;;; init-keybind.el ends here.
