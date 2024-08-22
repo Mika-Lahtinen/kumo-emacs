@@ -25,6 +25,6 @@
 ;; (enable-theme 'gtk-ide)
 
 ;; Icons
-(setq-default truncate-lines nil)
+(setq-default truncate-lines 1)
 
 (provide 'init-display)
