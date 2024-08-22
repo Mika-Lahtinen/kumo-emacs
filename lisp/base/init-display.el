@@ -26,6 +26,6 @@
 
 ;; Icons
 (setq truncate-partial-width-windows nil)
-(setq-default truncate-lines 1)
+(setq-default truncate-lines nil)
 
 (provide 'init-display)
