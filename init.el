@@ -33,13 +33,13 @@
     (setq read-process-output-max (* 1024 1024 128)) ;; 128MB
     ))
 
-;; (add-to-list 'load-path
-;;              (expand-file-name(concat user-emacs-directory "lisp")))
+(add-to-list 'load-path
+  (expand-file-name(concat user-emacs-directory "lisp")))
 (require 'cl-lib)
 
 ;;; Basic settings for all Emacs.
-(add-to-list 'load-path
-             (expand-file-name (concat user-emacs-directory "lisp/base/")))
+;; (add-to-list 'load-path
+;;              (expand-file-name (concat user-emacs-directory "lisp/base/")))
 ;; (require 'init-package-source)
 ;; (require 'init-base-package)
 (require 'init-basic)
