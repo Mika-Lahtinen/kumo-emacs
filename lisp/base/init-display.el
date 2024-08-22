@@ -18,11 +18,11 @@
                       :weight 'Regular))
 
 ;; Color theme
-(add-to-list 'custom-theme-load-path
-             (concat user-emacs-directory
-                     (convert-standard-filename "packages/color-theme-modern/")))
-(load-theme 'gtk-ide t t)
-(enable-theme 'gtk-ide)
+;; (add-to-list 'custom-theme-load-path
+;;              (concat user-emacs-directory
+;;                      (convert-standard-filename "packages/color-theme-modern/")))
+;; (load-theme 'gtk-ide t t)
+;; (enable-theme 'gtk-ide)
 
 ;; Icons
 (setq-default truncate-lines nil)
