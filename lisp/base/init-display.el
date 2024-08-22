@@ -25,6 +25,7 @@
 ;; (enable-theme 'gtk-ide)
 
 ;; Icons
+(setq truncate-partial-width-windows nil)
 (setq-default truncate-lines 1)
 
 (provide 'init-display)
