@@ -25,7 +25,8 @@
 ;; (enable-theme 'gtk-ide)
 
 ;; Icons
-(setq truncate-partial-width-windows nil)
-(setq-default truncate-lines nil)
+;; (setq truncate-partial-width-windows nil)
+;; (setq-default truncate-lines nil)
+(add-hook 'org-mode-hook #'toggle-truncate-lines)
 
 (provide 'init-display)
