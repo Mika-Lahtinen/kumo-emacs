@@ -57,6 +57,10 @@
 ;; Yes or No
 (defalias 'yes-or-no-p 'y-or-n-p)
 
+;; Tab size
+(setq tab-width 4
+      indent-tab-mode nil)
+
 ;; Recent opened files in Emacs.
 (require 'recentf)
 (recentf-mode 1)
