@@ -33,11 +33,13 @@
     (setq read-process-output-max (* 1024 1024 128)) ;; 128MB
     ))
 
-(add-to-list 'load-path
-             (expand-file-name(concat user-emacs-directory "lisp")))
-;; Basic settings when plugins are not loaded.
-;; All the configurations in init-basic are common in all versions of Emacs.
+;; (add-to-list 'load-path
+;;              (expand-file-name(concat user-emacs-directory "lisp")))
 (require 'cl-lib)
+
+;;; Basic settings for all Emacs.
+(add-to-list 'load-path
+             (expand-file-name(concat user-emacs-directory "lisp/base")))
 ;; (require 'init-package-source)
 ;; (require 'init-base-package)
 (require 'init-basic)
