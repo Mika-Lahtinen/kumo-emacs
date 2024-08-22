@@ -40,7 +40,7 @@
 (require 'cl-lib)
 ;; (require 'init-package-source)
 ;; (require 'init-base-package)
-;; (require 'init-basic)
+(require 'init-basic)
 ;; (require 'init-locale)
 ;; (require 'init-display)
 ;; (require 'init-keybind)

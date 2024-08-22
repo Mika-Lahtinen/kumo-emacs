@@ -62,12 +62,6 @@
 (recentf-mode 1)
 (setq recentf-max-menu-item 10)
 
-;; IDO mode
-;; (require 'ido)
-;; (setq ido-enable-flex-matching t)
-;; (setq ido-everywhere t)
-;; (ido-mode t)
-
 ;; Fix LISP evaluation depth errors.
 ;; (setq max-lisp-eval-depth 10000)
 
