@@ -46,6 +46,8 @@
 ;; (require 'init-keybind)
 
 ;; Tools wanna use settings
+(add-to-list 'load-path
+             (expand-file-name (concat user-emacs-directory "lisp/tools/")))
 ;; (require 'init-tools-common)
 ;; (require 'init-tools-evil)
 ;; (require 'init-tools-org)
@@ -55,6 +57,8 @@
 ;; (require 'init-tools-chinese)
 
 ;; Programming language configurations
+(add-to-list 'load-path
+             (expand-file-name (concat user-emacs-directory "lisp/lang/")))
 ;; (require 'init-lang-cc)
 ;; (require 'init-lang-rust)
 ;; (require 'init-lang-elixir)
