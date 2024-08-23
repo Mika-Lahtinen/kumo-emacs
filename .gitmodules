@@ -2,3 +2,8 @@
 [submodule "packages/use-package"]
 	path = packages/use-package
 	url = https://github.com/jwiegley/use-package.git
+
+# Collections for color themes.
+[submodule "packages/color-theme-modern"]
+	path = packages/color-theme-modern
+	url = https://github.com/emacs-jp/replace-colorthemes.git
