@@ -38,7 +38,7 @@
 ;;; Basic settings for all Emacs.
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/base/")))
-;; (require 'init-package-source)
+(require 'init-package-source)
 ;; (require 'init-base-package)
 (require 'init-basic)
 (require 'init-locale)
