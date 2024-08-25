@@ -39,7 +39,8 @@
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/base/")))
 (require 'init-package-source)
-(require 'init-base-package)
+(require 'init-builtin-package)
+(require 'init-base-deps)
 (require 'init-basic)
 (require 'init-locale)
 (require 'init-display)

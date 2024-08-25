@@ -21,8 +21,8 @@
 (add-to-list 'custom-theme-load-path
              (concat user-emacs-directory
                      (convert-standard-filename "packages/color-theme-modern/")))
-(load-theme 'gtk-ide t t)
-(enable-theme 'gtk-ide)
+(load-theme 'adwaita t t)
+(enable-theme 'adwaita)
 
 ;; Icons
 ;; (setq truncate-partial-width-windows nil)
