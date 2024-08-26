@@ -9,7 +9,7 @@
 ;;; Code:
 
 (use-package ivy
-  :load-path "packages/swiper/"
+  :load-path "packages/swiper"
   :config
   (ivy-mode 1)
   (setq ivy-use-virtual-buffers t)
