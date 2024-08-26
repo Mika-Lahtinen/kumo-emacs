@@ -13,9 +13,14 @@
                      (convert-standard-filename "packages/swiper/")))
 
 (use-package counsel
-  :ensure nil)
+  :ensure nil
+  :load-path "packages/swiper/")
+
 (use-package ivy
   :ensure nil
+  :load-path "packages/swiper/"
+  :hook
+  (after-init . ivy-mode)
   :init
   (counsel-mode 1)
   (ivy-mode 1)
