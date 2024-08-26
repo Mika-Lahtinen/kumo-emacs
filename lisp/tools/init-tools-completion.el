@@ -21,9 +21,6 @@
   :load-path "packages/swiper/"
   :hook
   (after-init . ivy-mode)
-  :init
-  (counsel-mode 1)
-  (ivy-mode 1)
   :config
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t)
