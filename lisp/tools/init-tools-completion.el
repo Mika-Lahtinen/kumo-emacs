@@ -14,7 +14,9 @@
 
 (use-package counsel
   :ensure nil
-  :load-path "packages/swiper/")
+  :load-path "packages/swiper/"
+  :hook
+  (after-init . counsel-mode))
 
 (use-package ivy
   :ensure nil
