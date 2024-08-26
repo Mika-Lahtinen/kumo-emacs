@@ -11,11 +11,11 @@
     :init 
     (savehist-mode))
 
-(use-package ido-mode
-    :ensure nil
-    :init
-    (setq ido-enable-flex-matching t)
-    (setq ido-everywhere t)
-    (ido-mode 1))
+;; (use-package ido-mode
+;;     :ensure nil
+;;     :init
+;;     (setq ido-enable-flex-matching t)
+;;     (setq ido-everywhere t)
+;;     (ido-mode 1))
 
 (provide 'init-builtin-package)

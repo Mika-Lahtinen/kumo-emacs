@@ -52,7 +52,7 @@
 ;; (require 'init-tools-common)
 ;; (require 'init-tools-evil)
 ;; (require 'init-tools-org)
-;; (require 'init-tools-completion)
+(require 'init-tools-completion)
 ;; (require 'init-tools-snippets)
 ;; (require 'init-tools-lsp)
 ;; (require 'init-tools-chinese)

@@ -7,3 +7,11 @@
 [submodule "packages/color-theme-modern"]
 	path = packages/color-theme-modern
 	url = https://github.com/emacs-jp/replace-colorthemes.git
+
+# Completion packages
+[submodule "packages/wgrep"]
+	path = packages/wgrep
+	url = https://github.com/mhayashi1120/Emacs-wgrep.git
+[submodule "packages/swiper"]
+	path = packages/swiper
+	url = https://github.com/abo-abo/swiper.git
