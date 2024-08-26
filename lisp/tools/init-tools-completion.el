@@ -8,14 +8,18 @@
 ;; which-key, keycast
 ;;; Code:
 
-
 (add-to-list 'custom-theme-load-path
              (concat user-emacs-directory
                      (convert-standard-filename "packages/swiper/")))
+
+(use-package counsel
+  :ensure nil)
 (use-package ivy
   :ensure nil
-  :config
+  :init
+  (counsel-mode 1)
   (ivy-mode 1)
+  :config
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t)
   (setq ivy-height 10)
