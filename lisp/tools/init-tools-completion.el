@@ -8,9 +8,9 @@
 ;; which-key, keycast
 ;;; Code:
 
-(add-to-list 'custom-theme-load-path
-             (concat user-emacs-directory
-                     (convert-standard-filename "packages/swiper/")))
+;; (add-to-list 'custom-theme-load-path
+;;              (concat user-emacs-directory
+;;                      (convert-standard-filename "packages/swiper/")))
 
 (use-package counsel
   :ensure nil
