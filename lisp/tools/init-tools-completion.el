@@ -3,15 +3,12 @@
 ;;; Commentary:
 ;; All the configurations for auto completion.
 ;; Currently we are using the following plugins:
-;; vertico, orderless, consult, embark, company, marginalia
+;; ivy, swiper, counsel, company
 ;; Additional plugins:
 ;; which-key, keycast
 ;;; Code:
 
-;; (add-to-list 'custom-theme-load-path
-;;              (concat user-emacs-directory
-;;                      (convert-standard-filename "packages/swiper/")))
-
+;;; Ivy + Counsel + Swiper
 (use-package counsel
   :ensure nil
   :load-path "packages/swiper/"
@@ -31,6 +28,20 @@
   (setq ivy-count-format "(%d/%d) ")
   (setq ivy-re-builders-alist
         '((t . ivy--regex-ignore-order))))
+
+(use-package swiper
+  :ensure nil
+  :load-path "packages/swiper/"
+  :hook
+  (after-init . swiper-mode))
+
+;;; Company
+(use-package company
+  :ensure nil
+  :load-path "packages/company/"
+  :hook
+  (after-init . global-company-mode))
+
 
 (provide 'init-tools-completion)
 ;;; completion.el ends here.
