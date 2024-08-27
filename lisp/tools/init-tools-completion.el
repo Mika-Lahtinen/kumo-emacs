@@ -32,8 +32,7 @@
 (use-package swiper
   :ensure nil
   :load-path "packages/swiper/"
-  :hook
-  (after-init . swiper-mode))
+)
 
 ;;; Company
 (use-package company
