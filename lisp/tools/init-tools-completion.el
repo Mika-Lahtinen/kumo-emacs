@@ -31,15 +31,30 @@
 
 (use-package swiper
   :ensure nil
-  :load-path "packages/swiper/"
-)
+  :load-path "packages/swiper/")
 
-;;; Company
+;;; Company: For auto completion when coding.
 (use-package company
   :ensure nil
   :load-path "packages/company/"
   :hook
-  (after-init . global-company-mode))
+  (after-init . global-company-mode)
+  :config
+  (setq company-idle-delay 0)
+  (setq company-minimum-prefix-length 1)
+  (setq company-selection-wrap-around t)
+  (setq company-tooltip-limit 10)
+  (setq company-tooltip-align-annotations t)
+  (setq company-dabbrev-downcase nil)
+  (setq company-dabbrev-ignore-case nil))
+
+;;; Wgrep
+(use-package wgrep
+  :ensure nil
+  :load-path "packages/wgrep/")
+
+;;; Which-key: For displaying keybindings.
+
 
 
 (provide 'init-tools-completion)
