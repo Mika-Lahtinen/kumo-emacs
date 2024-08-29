@@ -20,6 +20,10 @@
   :load-path "packages/swiper/"
   :hook
   (after-init . ivy-mode)
+  :bind
+  (
+    ("C-s" . 'swiper)
+    ("C-x b" . ivy-switch-buffer))
   :config
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t)
@@ -48,10 +52,6 @@
   (setq company-dabbrev-downcase nil)
   (setq company-dabbrev-ignore-case nil))
 
-;;; Wgrep
-(use-package wgrep
-  :ensure nil
-  :load-path "packages/wgrep/")
 
 ;;; Which-key: For displaying keybindings.
 
