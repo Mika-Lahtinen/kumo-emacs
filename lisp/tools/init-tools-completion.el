@@ -23,7 +23,7 @@
   :bind
   (
     ("C-s" . 'swiper)
-    ("C-x b" . ivy-switch-buffer))
+    ("C-x b" . 'ivy-switch-buffer))
   :config
   (setq ivy-use-virtual-buffers t)
   (setq enable-recursive-minibuffers t)
