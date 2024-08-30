@@ -25,3 +25,6 @@
 [submodule "packages/company-box"]
 	path = packages/company-box
 	url = https://github.com/sebastiencs/company-box.git
+[submodule "packages/frame-local"]
+	path = packages/frame-local
+	url = https://github.com/sebastiencs/frame-local.git
