@@ -12,6 +12,11 @@
 [submodule "packages/swiper"]
 	path = packages/swiper
 	url = https://github.com/abo-abo/swiper.git
+
+# Company-related packages
 [submodule "packages/company"]
 	path = packages/company
 	url = https://github.com/company-mode/company-mode.git
+[submodule "packages/company-box"]
+	path = packages/company-box
+	url = https://github.com/sebastiencs/company-box.git
