@@ -6,9 +6,10 @@
   ;;    (setq locale-coding-system 'gb18030)
   ;;    (setq w32-unicode-filenames 'nil)
   ;;    (setq file-name-coding-system 'gb18030)
-  (dolist (charset '(kana han symbol cjk-misc bopomofo))
-    (set-fontset-font (frame-parameter nil 'font)
-                      charset (font-spec :family "微软雅黑" :size 14)))
+  (when (display-graphic-p)
+    (dolist (charset '(kana han symbol cjk-misc bopomofo))
+      (set-fontset-font (frame-parameter nil 'font)
+                      charset (font-spec :family "微软雅黑" :size 14))))
   )
 
 (when *is-linux*
