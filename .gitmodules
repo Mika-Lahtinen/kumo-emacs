@@ -1,3 +1,8 @@
+# Common dependencies
+[submodule "packages/dash"]
+	path = packages/dash
+	url = https://github.com/magnars/dash.el.git
+
 # use-package
 [submodule "packages/use-package"]
 	path = packages/use-package
