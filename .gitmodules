@@ -5,6 +5,9 @@
 [submodule "packages/frame-local"]
 	path = packages/frame-local
 	url = https://github.com/sebastiencs/frame-local.git
+[submodule "packages/pos-tip"]
+	path = packages/pos-tip
+	url = https://github.com/pitkali/pos-tip.git
 
 # use-package
 [submodule "packages/use-package"]
@@ -28,3 +31,6 @@
 [submodule "packages/company-box"]
 	path = packages/company-box
 	url = https://github.com/sebastiencs/company-box.git
+[submodule "packages/company-quickhelp"]
+	path = packages/company-quickhelp
+	url = https://github.com/company-mode/company-quickhelp.git
