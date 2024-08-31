@@ -13,7 +13,11 @@
     :ensure nil
     :load-path "packages/swiper/"
     :hook
-    (after-init . counsel-mode))
+    (after-init . counsel-mode)
+    :bind
+    (
+        ("C-x C-f" . 'counsel-find-file)
+        ("M-x" . 'counsel-M-x)))
 
 (use-package ivy
     :ensure nil

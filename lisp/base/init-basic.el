@@ -52,6 +52,7 @@
 ;; Some settings for editting a file
 (global-auto-revert-mode t)
 (delete-selection-mode t)
+(global-subword-mode 1)
 ;; (setq auto-save-default nil)
 
 ;; Yes or No
