@@ -23,10 +23,7 @@
     :ensure nil
     :load-path "packages/company-quickhelp/"
     :hook
-    (after-init . company-quickhelp-mode)
-    (use-package pos-tip
-        :ensure nil
-        :load-path "packages/pos-tip/"))
+    (after-init . company-quickhelp-mode))
 
 (use-package company-box
     :ensure nil
