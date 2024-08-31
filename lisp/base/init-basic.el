@@ -55,7 +55,8 @@
 ;; (setq auto-save-default nil)
 
 ;; Yes or No
-(defalias 'yes-or-no-p 'y-or-n-p)
+;; (defalias 'yes-or-no-p 'y-or-n-p)
+(fset 'yes-or-no-p 'y-or-n-p)
 
 ;; Tab size
 (setq tab-width 4
