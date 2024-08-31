@@ -22,12 +22,12 @@
 (use-package company-quickhelp
     :ensure nil
     :load-path "packages/company-quickhelp/"
-    :init
-    (company-quickhelp-mode 1)
+    :hook
+    (after-init . company-quickhelp-mode)
     (use-package pos-tip
         :ensure nil
         :load-path "packages/pos-tip/"))
-        
+
 (use-package company-box
     :ensure nil
     :load-path "packages/company-box"
