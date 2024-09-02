@@ -42,7 +42,7 @@
      ("C-x C-r" . consult-recent-file)
      ("C-x b" . consult-buffer)
      ("M-s r" . consult-ripgrep)
-     ("M-s f" . consult-find)))
+     ("M-s f" . consult-fd)))
 
 ;;; embark
 (use-package embark
