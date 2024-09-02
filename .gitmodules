@@ -8,6 +8,9 @@
 [submodule "packages/use-package"]
 	path = packages/use-package
 	url = https://github.com/jwiegley/use-package.git
+[submodule "packages/compat"]
+	path = packages/compat
+	url = https://github.com/emacs-compat/compat.git
 
 # Collections for color themes.
 [submodule "packages/color-theme-modern"]

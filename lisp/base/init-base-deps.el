@@ -4,8 +4,8 @@
 (use-package frame-local
     :ensure nil
     :load-path "packages/frame-local")
-(use-package pos-tip
+(use-package compat
     :ensure nil
-    :load-path "packages/pos-tip/")
+    :load-path "packages/compat/")
 
 (provide 'init-base-deps)
