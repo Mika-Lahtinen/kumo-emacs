@@ -18,3 +18,18 @@
 [submodule "packages/vertico"]
 	path = packages/vertico
 	url = https://github.com/minad/vertico.git
+[submodule "packages/orderless"]
+	path = packages/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "packages/marginalia"]
+	path = packages/marginalia
+	url = https://github.com/minad/marginalia.git
+[submodule "packages/consult"]
+	path = packages/consult
+	url = https://github.com/minad/consult.git
+[submodule "packages/embark"]
+	path = packages/embark
+	url = https://github.com/oantolin/embark.git
+[submodule "packages/corfu"]
+	path = packages/corfu
+	url = https://github.com/minad/corfu.git
