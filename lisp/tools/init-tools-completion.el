@@ -61,7 +61,7 @@
     :ensure nil
     :load-path "packages/corfu/"
     :hook
-    (after-init . corfu-global-mode)
+    (after-init . global-corfu-mode)
     :custom
     (corfu-cycle t)
     (corfu-auto t)
