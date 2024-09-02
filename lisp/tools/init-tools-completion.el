@@ -8,39 +8,6 @@
 ;; which-key, keycast
 ;;; Code:
 
-;;; Ivy + Counsel + Swiper
-(use-package counsel
-    :ensure nil
-    :load-path "packages/swiper/"
-    :hook
-    (after-init . counsel-mode)
-    :bind
-    (
-        ("C-x C-f" . 'counsel-find-file)
-        ("M-x" . 'counsel-M-x)))
-
-(use-package ivy
-    :ensure nil
-    :load-path "packages/swiper/"
-    :hook
-    (after-init . ivy-mode)
-    :bind
-    (
-      ("C-s" . 'swiper)
-      ("C-x b" . 'ivy-switch-buffer))
-    :config
-    (setq ivy-use-virtual-buffers t)
-    (setq enable-recursive-minibuffers t)
-    (setq ivy-height 10)
-    (setq ivy-wrap t)
-    (setq ivy-count-format "(%d/%d) ")
-    (setq ivy-re-builders-alist
-          '((t . ivy--regex-ignore-order))))
-
-(use-package swiper
-    :ensure nil
-    :load-path "packages/swiper/")
-
 ;;; Which-key: For displaying keybindings.
 
 
