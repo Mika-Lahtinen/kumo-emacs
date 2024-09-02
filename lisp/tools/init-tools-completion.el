@@ -12,6 +12,7 @@
 (use-package orderless
     :ensure nil
     :load-path "packages/orderless/"
+    :demand t
     :custom
     (completion-styles '(orderless basic))
     (completion-category-overrides '((file (styles basic partial-completion)))))
@@ -20,7 +21,8 @@
 (use-package vertico
     :ensure nil
     :load-path "packages/vertico/"
-    :demand t
+    :hook
+    (after-init . vertico-mode)
     :custom
     (vertico-cycle t))
 
