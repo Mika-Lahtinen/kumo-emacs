@@ -20,8 +20,7 @@
 (use-package vertico
     :ensure nil
     :load-path "packages/vertico/"
-    :hook
-    (after-init . vertico-mode)
+    :demand t
     :custom
     (vertico-cycle t))
 
