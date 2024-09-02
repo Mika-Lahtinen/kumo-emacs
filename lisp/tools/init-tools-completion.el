@@ -14,7 +14,7 @@
     :load-path "packages/orderless/"
     :demand t
     :custom
-    (completion-styles '(orderless basic))
+    (completion-styles '(substring orderless basic))
     (completion-category-overrides '((file (styles basic partial-completion)))))
 
 ;;; Vertico
@@ -53,9 +53,7 @@
      ("C-;" . embark-dwim)
      ("C-h B" . embark-bindings))
     :init
-    (setq prefix-help-command #'embark-prefix-help-command)
-    :config
-    (add-to-list 'embark-allow-quit 'embark-act))
+    (setq prefix-help-command #'embark-prefix-help-command))
 
 ;;; corfu
 (use-package corfu
