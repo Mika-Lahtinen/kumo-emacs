@@ -55,6 +55,11 @@
     :init
     (setq prefix-help-command #'embark-prefix-help-command))
 
+(use-package embark-consult
+    :ensure nil
+    :load-path "packages/embark-consult/"
+    :after (embark consult))
+
 ;;; corfu
 (use-package corfu
     :ensure nil
