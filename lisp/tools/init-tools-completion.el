@@ -39,10 +39,10 @@
     :load-path "packages/consult/"
     :bind
     (("C-s" . consult-line)
+     ("C-x C-r" . consult-recent-file)
      ("C-x b" . consult-buffer)
-     ("C-x C-b" . consult-buffer)
-     ("C-x C-f" . consult-find)
-     ("C-x C-r" . consult-recent-file)))
+     ("M-s r" . consult-ripgrep)
+     ("M-s f" . consult-find)))
 
 ;;; embark
 (use-package embark
