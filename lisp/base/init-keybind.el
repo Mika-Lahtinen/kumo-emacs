@@ -4,6 +4,8 @@
 ;;; Here I use default keymap.
 ;;; However, you can add your own bindings here by yourself.
 
+(global-set-key (kbd "M-n") #'flymake-goto-next-error)
+(global-set-key (kbd "M-p") #'flymake-goto-prev-error)
 
 (provide 'init-keybind)
 

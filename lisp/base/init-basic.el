@@ -28,10 +28,10 @@
 (tool-bar-mode -1)
 
 ;; Show time and battery.
-(display-time-mode 1)
-(setq display-time-24hr-format t)
-(setq display-time-day-and-date t)
-(display-battery-mode 1)
+;; (display-time-mode 1)
+;; (setq display-time-24hr-format t)
+;; (setq display-time-day-and-date t)
+;; (display-battery-mode 1)
 (setq visible-bell 1)
 
 ;; Stop auto backup files when editing.
@@ -43,6 +43,7 @@
 ;; Add some hook for programming mode
 (add-hook 'prog-mode-hook #'show-paren-mode)
 (add-hook 'prog-mode-hook #'hs-minor-mode)
+(add-hook 'prog-mode-hook #'flymake-mode)
 
 ;; Numbers
 (global-display-line-numbers-mode 1)

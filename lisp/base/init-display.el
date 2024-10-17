@@ -19,15 +19,12 @@
                       :weight 'Regular))
 
 ;; Color theme
-(add-to-list 'custom-theme-load-path
-             (concat user-emacs-directory
-                     (convert-standard-filename "packages/color-theme-modern/")))
 (load-theme 'adwaita t t)
 (enable-theme 'adwaita)
 
 ;; Icons
 ;; (setq truncate-partial-width-windows nil)
-;; (setq-default truncate-lines nil)
+(setq-default truncate-lines nil)
 (add-hook 'org-mode-hook #'toggle-truncate-lines)
 
 (provide 'init-display)

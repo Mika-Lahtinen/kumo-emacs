@@ -14,9 +14,9 @@
 ;;    (package-refresh-contents)
 ;;    (package-install 'use-package))
 ;;
-(add-to-list 'load-path
-             (concat user-emacs-directory
-                     (convert-standard-filename "packages/use-package/")))
+;; (add-to-list 'load-path
+;;              (concat user-emacs-directory
+;;                      (convert-standard-filename "packages/use-package/")))
 
 (require 'use-package)
 (eval-and-compile
