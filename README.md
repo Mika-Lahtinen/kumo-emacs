@@ -4,7 +4,7 @@ This configuration is still contributing, for more details please follow this re
 
 ## Requirement
 
-- Emacs version >= 28 is recommend.
+- Emacs version >= 29 is recommend.
 - git
 - ripgrep
 - For Windows user : Msys2 is necessary
