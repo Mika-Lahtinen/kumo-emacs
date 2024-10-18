@@ -61,7 +61,7 @@
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/lang/")))
 ;; (require 'init-lang-cc)
-;; (require 'init-lang-rust)
+(require 'init-lang-rust)
 ;; (require 'init-lang-elixir)
 ;; (require 'init-lang-javascript)
 ;; (require 'init-lang-markdown)
