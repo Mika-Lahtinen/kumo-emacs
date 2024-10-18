@@ -40,11 +40,11 @@
              (expand-file-name (concat user-emacs-directory "lisp/base/")))
 (require 'init-package-source)
 (require 'init-builtin-package)
-(require 'init-base-deps)
+;; (require 'init-base-deps)
 (require 'init-basic)
 (require 'init-locale)
 (require 'init-display)
-;; (require 'init-keybind)
+(require 'init-keybind)
 
 ;; Tools wanna use settings
 (add-to-list 'load-path
@@ -52,7 +52,7 @@
 ;; (require 'init-tools-common)
 ;; (require 'init-tools-evil)
 ;; (require 'init-tools-org)
-;; (require 'init-tools-completion)
+(require 'init-tools-completion)
 ;; (require 'init-tools-snippets)
 ;; (require 'init-tools-lsp)
 ;; (require 'init-tools-chinese)

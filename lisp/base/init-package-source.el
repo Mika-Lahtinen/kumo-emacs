@@ -4,11 +4,11 @@
                          ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 ;;
 (setq package-check-signature nil)
-;;(require 'package)
-;;(unless (bound-and-true-p package--initialized)
-;;    (package-initialize))
-;;(unless package-archive-contents
-;;     (package-refresh-contents))
+(require 'package)
+(unless (bound-and-true-p package--initialized)
+   (package-initialize))
+(unless package-archive-contents
+    (package-refresh-contents))
 ;;
 ;;(unless (package-installed-p 'use-package)
 ;;    (package-refresh-contents)

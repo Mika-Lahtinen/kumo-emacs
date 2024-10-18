@@ -7,6 +7,8 @@
 (global-set-key (kbd "M-n") #'flymake-goto-next-error)
 (global-set-key (kbd "M-p") #'flymake-goto-prev-error)
 
+(global-set-key (kbd "M-h") #'set-mark-command)
+
 (provide 'init-keybind)
 
 ;;; init-keybind.el ends here.
