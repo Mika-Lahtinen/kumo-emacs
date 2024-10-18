@@ -17,7 +17,7 @@
     (ivy-mode)
     :config
     (setq ivy-use-virtual-buffers t
-          ivy-count-format "(%d/%d) "
+          ivy-count-format "(%d/%d)"
           enable-recursive-minibuffers t)
     )
 (use-package counsel
