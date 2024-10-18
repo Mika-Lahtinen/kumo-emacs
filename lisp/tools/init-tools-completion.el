@@ -25,7 +25,15 @@
 
 ;;; Company
 (use-package company
-    :ensure t)
+    :ensure t
+    :hook
+    (after-init . global-company-mode)
+    :config
+    (setq company-idle-delay 0.3
+          company-minimum-prefix-length 2
+          company-selection-wrap-around t
+          company-tooltip-align-annotations t)
+    )
 
 (provide 'init-tools-completion)
 ;;; completion.el ends here.
