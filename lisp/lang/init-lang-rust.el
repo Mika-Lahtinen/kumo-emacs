@@ -9,7 +9,8 @@
     :config
     (setq rustic-format-on-save t)
     (setq rustic-lsp-client 'eglot)
-    :custom
-    (rustic-analyzer-command '("rustup" "run" "stable" "rust-analyzer")))
+    ;; :custom
+    ;; (rustic-analyzer-command '("rustup" "run" "stable" "rust-analyzer"))
+    )
 
 (provide 'init-lang-rust)
