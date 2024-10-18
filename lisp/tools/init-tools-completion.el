@@ -10,7 +10,10 @@
 
 ;;; Ivy, counsel and swiper
 (use-package swiper
-    :ensure t)
+    :ensure t
+    :bind
+    (("C-s" . swiper-isearch))
+    )
 (use-package ivy
     :ensure t
     :init
