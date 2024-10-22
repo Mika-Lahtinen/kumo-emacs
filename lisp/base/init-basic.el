@@ -23,9 +23,11 @@
 (setq confirm-kill-emacs #'yes-or-no-p)
 
 ;; Stop using "bars"
-(menu-bar-mode -1)
-(scroll-bar-mode -1)
-(tool-bar-mode -1)
+(when (display-graphic-p)
+      (menu-bar-mode -1)
+      (scroll-bar-mode -1)
+      (tool-bar-mode -1)
+      )
 
 ;; Show time and battery.
 ;; (display-time-mode 1)

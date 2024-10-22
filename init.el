@@ -64,7 +64,7 @@
 (require 'init-lang-rust)
 ;; (require 'init-lang-elixir)
 ;; (require 'init-lang-javascript)
-;; (require 'init-lang-markdown)
+(require 'init-lang-markdown)
 ;; (require 'init-lang-latex)
 ;;
 
