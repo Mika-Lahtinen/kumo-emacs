@@ -53,6 +53,7 @@
 ;; (require 'init-tools-evil)
 ;; (require 'init-tools-org)
 (require 'init-tools-completion)
+(require 'init-tools-checkers)
 ;; (require 'init-tools-snippets)
 ;; (require 'init-tools-lsp)
 ;; (require 'init-tools-chinese)
@@ -61,10 +62,10 @@
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/lang/")))
 ;; (require 'init-lang-cc)
-(require 'init-lang-rust)
+;; (require 'init-lang-rust)
 ;; (require 'init-lang-elixir)
 ;; (require 'init-lang-javascript)
-(require 'init-lang-markdown)
+;; (require 'init-lang-markdown)
 ;; (require 'init-lang-latex)
 ;;
 

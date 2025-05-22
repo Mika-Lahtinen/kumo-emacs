@@ -1,3 +1,5 @@
+;;; Rust Settings
+
 (use-package rust-mode
     :ensure t)
 
@@ -14,3 +16,5 @@
     )
 
 (provide 'init-lang-rust)
+
+;;; End of the settings.

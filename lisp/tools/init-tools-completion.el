@@ -36,11 +36,11 @@
 ;;; Company
 (use-package company
     :ensure t
-    :hook
-    (after-init . global-company-mode)
     :config
+    (global-company-mode)
     (setq company-idle-delay 0.3
           company-minimum-prefix-length 2
+	  company-show-numbers t
           company-selection-wrap-around t
           company-tooltip-align-annotations t)
     )

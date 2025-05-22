@@ -1,14 +1,16 @@
-(setq package-archives '(
-                         ("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
-                         ("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
-                         ("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
+(setq package-archives
+      '(
+	("melpa" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/melpa/")
+	("gnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/gnu/")
+	("nongnu" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/nongnu/")
+	("org" . "http://mirrors.tuna.tsinghua.edu.cn/elpa/org/")))
 ;;
 (setq package-check-signature nil)
 (require 'package)
 (unless (bound-and-true-p package--initialized)
-   (package-initialize))
+  (package-initialize))
 (unless package-archive-contents
-    (package-refresh-contents))
+  (package-refresh-contents))
 ;;
 ;;(unless (package-installed-p 'use-package)
 ;;    (package-refresh-contents)
