@@ -17,15 +17,16 @@
   ;; Private hook for eglot
   (defun private-eglot-hook ()
     (add-hook 'before-save-hook #'eglot-format-buffer nil t)
-    (add-hook 'before-save-hook #'eglot-code-action-organize-imports nil t))
+    (add-hook 'before-save-hook #'eglot-code-action-organize-imports nil t)
+
+    (set (make-local-variable 'company-backends)
+         '(
+           (company-capf company-yasnippet)
+           (company-dabbrev-code company-dabbrev)
+           )
+         ))
   (add-hook 'eglot-managed-mode-hook 'private-eglot-hook)
   )
-
-(use-package company-eglot
-  :ensure t
-  :config
-  (with-eval-after-load 'eglot
-    (add-to-list 'company-backends 'company-eglot)))
 
 
 (provide 'init-tools-lsp)
