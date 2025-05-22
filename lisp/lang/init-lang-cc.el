@@ -1,4 +1,4 @@
-;;; C/C++ Settings
+;;; init-lang-cc --- C/C++ Settings
 (use-package modern-cpp-font-lock
   :ensure t)
 
@@ -16,4 +16,12 @@
        c-basic-offset 4)
   )
 
+(defun cpp-only-hook ()
+  (modern-cpp-font-lock-mode 1))
+
+(add-hook 'c-mode-common-hook 'cc-common-hook)
+(add-hook 'c-mode-hook 'c-only-hook)
+(add-hook 'c++-mode-hook 'cpp-only-hook)
+
 (provide 'init-lang-cc)
+;;; init-lang-cc.el ends here.
