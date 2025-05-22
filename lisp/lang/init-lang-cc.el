@@ -17,11 +17,11 @@
   )
 
 (defun cpp-only-hook ()
-  (modern-cpp-font-lock-mode 1))
+  (modern-c++-font-lock-mode 1))
 
 (add-hook 'c-mode-common-hook 'cc-common-hook)
 (add-hook 'c-mode-hook 'c-only-hook)
-(add-hook 'c++-mode-hook 'cpp-only-hook)
+;; (add-hook 'c++-mode-hook 'cpp-only-hook)
 
 (provide 'init-lang-cc)
 ;;; init-lang-cc.el ends here.
