@@ -28,6 +28,5 @@
   (add-hook 'eglot-managed-mode-hook 'private-eglot-hook)
   )
 
-
 (provide 'init-tools-lsp)
 ;;; init-tools-lsp.el ends here.
