@@ -28,5 +28,10 @@
   (add-hook 'eglot-managed-mode-hook 'private-eglot-hook)
   )
 
+(use-package eldoc-box
+  :ensure t
+  :config
+  (add-hook 'eglot-managed-mode-hook 'eldoc-box-hover-hook)
+  )
 (provide 'init-tools-lsp)
 ;;; init-tools-lsp.el ends here.
