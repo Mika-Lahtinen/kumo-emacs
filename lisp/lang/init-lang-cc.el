@@ -2,6 +2,10 @@
 (use-package modern-cpp-font-lock
   :ensure t)
 
+(use-package irony
+  :ensure t
+  :hook ((c++-mode c-mode) . irony-mode))
+
 (defun cc-common-hook ()
   (c-set-style "stroustrup")
   (setq c-basic-offset 4)
@@ -21,7 +25,7 @@
 
 (add-hook 'c-mode-common-hook 'cc-common-hook)
 (add-hook 'c-mode-hook 'c-only-hook)
-;; (add-hook 'c++-mode-hook 'cpp-only-hook)
+(add-hook 'c++-mode-hook 'cpp-only-hook)
 
 (provide 'init-lang-cc)
 ;;; init-lang-cc.el ends here.
