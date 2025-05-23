@@ -26,6 +26,13 @@
            )
          ))
   (add-hook 'eglot-managed-mode-hook 'private-eglot-hook)
+  (define-key eglot-mode-map (kbd "M-.") 'xref-find-definitions)
+  (define-key eglot-mode-map (kbd "M-,") 'xref-pop-marker-stack)
+  (define-key eglot-mode-map (kbd "C-c C-d") 'eldoc)
+  (define-key eglot-mode-map (kbd "C-c C-r") 'eglot-rename)
+  (define-key eglot-mode-map (kbd "C-c C-a") 'eglot-code-actions)
+  (define-key eglot-mode-map (kbd "C-c C-f") 'eglot-format-buffer)
+  (define-key eglot-mode-map (kbd "C-c C-o") 'eglot-code-action-organize-imports)
   )
 
 (use-package eldoc-box
@@ -34,13 +41,6 @@
   (add-hook 'eglot-managed-mode-hook 'eldoc-box-hover-hook)
   )
 
-(define-key eglot-mode-map (kbd "M-.") 'xref-find-definitions)
-(define-key eglot-mode-map (kbd "M-,") 'xref-pop-marker-stack)
-(define-key eglot-mode-map (kbd "C-c C-d") 'eldoc)
-(define-key eglot-mode-map (kbd "C-c C-r") 'eglot-rename)
-(define-key eglot-mode-map (kbd "C-c C-a") 'eglot-code-actions)
-(define-key eglot-mode-map (kbd "C-c C-f") 'eglot-format-buffer)
-(define-key eglot-mode-map (kbd "C-c C-o") 'eglot-code-action-organize-imports)
 
 (provide 'init-tools-lsp)
 ;;; init-tools-lsp.el ends here.
