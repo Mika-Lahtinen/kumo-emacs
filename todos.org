@@ -1,14 +1,14 @@
 #+TITLE: Todo-s for this configuration
 
 * Basic tools
-** TODO Treemacs
+** TODO Tree Navigations
 * Auto completion Support
 ** TODO Company mode plugin [0%]
 ** TODO Programming languages [0%]
  - [ ] List in Plan [0%]
    - [ ] Rust
    - [ ] Elixir
-   - [ ] C/C++
+   - [*] C/C++
    - [ ] Python
    - [ ] Go
    - [ ] Erlang
