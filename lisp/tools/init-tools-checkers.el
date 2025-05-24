@@ -1,13 +1,8 @@
-(use-package flymake
+;;; init-tools-checkers.el --- Checkers settings
+(use-package flycheck
   :ensure t
-  :config
-  (setq flymake-fringe-indicator-position 'right-fringe
-	flymake-no-changes-timeout nil)
-
-  (use-package flymake-cursor
-    :config
-    (global-flymake-mode))
-
-  )
+  :hook
+  (prog-mode . global-flycheck-mode))
 
 (provide 'init-tools-checkers)
+;;; init-tools-checkers.el ends here.
