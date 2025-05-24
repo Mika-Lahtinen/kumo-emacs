@@ -4,6 +4,8 @@
 ;;; Code:
 (use-package eglot
   :ensure t
+  :bind
+  ("C-c e f" . eglot-format)
   :config
   ;; Enroll LSPs
   ;; (add-to-list 'eglot-server-programs '(c-mode . ("clangd")))
