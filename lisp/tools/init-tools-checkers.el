@@ -1,8 +1,8 @@
 ;;; init-tools-checkers.el --- Checkers settings
-(use-package flycheck
+(use-package flymake
   :ensure t
   :hook
-  (prog-mode . global-flycheck-mode))
+  (prog-mode . global-flymake-mode))
 
 (provide 'init-tools-checkers)
 ;;; init-tools-checkers.el ends here.
