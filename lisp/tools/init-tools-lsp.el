@@ -11,7 +11,6 @@
 
   ;; Eglot basic settings
   (setq eglot-autoshutdown t
-	eglot-prefer-flymake nil
 	eglot-connect-timeout 30
 	eglot-sync-connect nil)
 
