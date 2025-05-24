@@ -1,18 +1,19 @@
 ;;; init-tools-lsp --- LSP Settings
-
+;;; Commentary:
+;;; LSP settings.
+;;; Code:
 (use-package eglot
   :ensure t
   :config
   ;; Enroll LSPs
-  (add-to-list 'eglot-server-programs '(c-mode . ("clangd")))
-  (add-to-list 'eglot-server-programs '(c++-mode . ("clangd")))
+  ;; (add-to-list 'eglot-server-programs '(c-mode . ("clangd")))
+  ;; (add-to-list 'eglot-server-programs '(c++-mode . ("clangd")))
 
   ;; Eglot basic settings
   (setq eglot-autoshutdown t
+	eglot-prefer-flymake nil
 	eglot-connect-timeout 30
-	eglot-sync-connect nil
-	eglot-ignored-server-capabilities '(:documentFormattingProvider
-					    :documentRangeFormattingProvider))
+	eglot-sync-connect nil)
 
   ;; Private hook for eglot
   (defun private-eglot-hook ()
