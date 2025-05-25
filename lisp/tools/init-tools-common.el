@@ -11,7 +11,7 @@
 
 (use-package which-key
   :ensure t
-  :config
+  :init
   (which-key-mode))
 
 (provide 'init-tools-common)
