@@ -17,10 +17,6 @@ This configuration is still contributing, for more details please follow this re
 - `{$HOME}/.emacs.d`
 - `{$HOME}/.config/emacs`
 
-3. Update plugins by using git submodules commands:
-```shell
-git submodule init
-git submodule update --depth=1
-```
+3. Uncomment modules you need to use in init.el .
 
 4. Start Emacs, enjoy, if you want to add your own configuration, please create and edit "custom.el" first.
