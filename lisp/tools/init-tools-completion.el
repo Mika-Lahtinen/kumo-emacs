@@ -34,7 +34,10 @@
   :bind
   (("M-x" . counsel-M-x)
    ("C-x C-f" . counsel-find-file)
-   ("C-c g" . counsel-git))
+   ("C-c g" . counsel-git)
+   ("C-c k" . counsel-rg)
+   ("C-x b" . ivy-switch-buffer)
+   ("M-y" . counsel-yank-pop))
   )
 (use-package counsel-etags
   :ensure t

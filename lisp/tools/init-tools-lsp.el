@@ -6,6 +6,8 @@
   :ensure t
   :bind
   ("C-c e f" . eglot-format)
+  :hook
+  (prog-mode . eglot-mode)
   :config
   ;; Enroll LSPs
   ;; (add-to-list 'eglot-server-programs '(c-mode . ("clangd")))
