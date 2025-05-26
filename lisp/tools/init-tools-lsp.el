@@ -7,7 +7,7 @@
   :bind
   ("C-c e f" . eglot-format)
   :hook
-  (prog-mode . eglot-mode)
+  (prog-mode . eglot-ensure)
   :config
   ;; Enroll LSPs
   ;; (add-to-list 'eglot-server-programs '(c-mode . ("clangd")))
