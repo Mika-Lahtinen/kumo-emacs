@@ -3,4 +3,5 @@
     :mode ("README\\.md\\'" . gfm-mode))
 
 
+(use-package markdown-mode)
 (provide 'init-lang-markdown)

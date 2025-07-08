@@ -1,10 +1,10 @@
 ;;; init-lang-cc --- C/C++ Settings
 (use-package modern-cpp-font-lock
-  :ensure t)
+             :ensure t)
 
 (use-package irony
-  :ensure t
-  :hook ((c++-mode c-mode) . irony-mode))
+             :ensure t
+             :hook ((c++-mode c-mode) . irony-mode))
 
 (defun cc-common-hook ()
   (c-set-style "stroustrup")

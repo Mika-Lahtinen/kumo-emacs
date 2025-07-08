@@ -5,14 +5,14 @@
 ;;; Code:
 
 (use-package exec-path-from-shell
-  :ensure t
-  :init
-  (exec-path-from-shell-initialize))
+             :ensure t
+             :init
+             (exec-path-from-shell-initialize))
 
 (use-package which-key
-  :ensure t
-  :init
-  (which-key-mode))
+             :ensure t
+             :init
+             (which-key-mode))
 
 (provide 'init-tools-common)
 ;;; init-tools-common.el ends here

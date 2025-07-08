@@ -2,14 +2,14 @@
 ;;; Code:
 
 (use-package winner-mode
-    :ensure nil
-    :hook 
-    (after-init . winner-mode))
+             :ensure nil
+             :hook 
+             (after-init . winner-mode))
 
 (use-package savehist
-    :ensure nil
-    :init 
-    (savehist-mode))
+             :ensure nil
+             :init 
+             (savehist-mode))
 
 ;; (use-package ido-mode
 ;;     :ensure nil

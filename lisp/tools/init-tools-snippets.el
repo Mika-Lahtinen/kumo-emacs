@@ -2,6 +2,6 @@
 
 ;;; Code:
 (use-package yasnippet
-    :ensure t)
+             :ensure t)
 
 (provide 'init-tools-snippets)
