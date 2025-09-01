@@ -2,6 +2,9 @@
 
 This configuration is still contributing, for more details please follow this repository.
 
+## Attention!
+This repo is rewriting now, I'm reorganizing all configurations.
+
 ## Requirement
 
 - Emacs version >= 29 is recommend.
