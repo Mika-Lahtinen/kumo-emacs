@@ -29,5 +29,18 @@
   (setq use-package-verbose t))
 ;;
 
+;;; Load plugins path
+(defvar plugins-dir
+  (expand-file-name "plugins" user-emacs-directory))
+(unless (file-directory-p plugins-dir)
+  (make-directory plugins-dir t))
+(add-to-list 'load-path plugins-dir)
+
+(defun plugin-load (plugin-name)
+  (let ((plugin-dir (expand-file-name plugin-name plugins-dir)))
+    (when (file-directory-p plugin-dir)
+      (add-to-list 'load-path plugin-dir)
+      plugin-dir)))
+
 (provide 'init-package-source)
 ;;; base/package-source.el ends here.

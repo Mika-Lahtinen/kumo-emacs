@@ -5,14 +5,33 @@
 ;;; Code:
 
 (use-package exec-path-from-shell
-             :ensure t
+             :ensure nil
+             :load-path (plugin-load "exec-path-from-shell")
              :init
-             (exec-path-from-shell-initialize))
+             (when (memq window-system '(mac ns x))
+               (exec-path-from-shell-initialize))
+             )
 
 (use-package which-key
-             :ensure t
+             :ensure nil
+             ;; :load-path (plugin-load "which-key")
              :init
              (which-key-mode))
 
+(use-package keycast
+             :ensure nil
+             :load-path (plugin-load "keycast")
+             :config
+             (keycast-header-line-mode 1))
+
+(use-package helpful
+             :ensure nil
+             :load-path (plugin-load "helpful")
+             :bind
+             (("C-h f" . #'helpful-callable)
+              ("C-h v" . #'helpful-variable)
+              ("C-h k" . #'helpful-key)
+              ("C-h x" . #'helpful-command)
+              ))
 (provide 'init-tools-common)
 ;;; init-tools-common.el ends here

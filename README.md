@@ -7,7 +7,7 @@ This repo is rewriting now, I'm reorganizing all configurations.
 
 ## Requirement
 
-- Emacs version >= 29 is recommend.
+- Emacs version >= 30 is recommend.
 - git
 - ripgrep
 - For Windows user : Msys2 is necessary

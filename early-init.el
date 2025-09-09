@@ -11,7 +11,7 @@
 ;; Initial frame size.
 ;;(add-to-list 'default-frame-alist '(width . 80))
 ;;(add-to-list 'default-frame-alist '(height . 25))
-(setq default-frame-alist '((width . 100) (height . 30)))
+(setq default-frame-alist '((width . 80) (height . 28)))
 
 (provide 'early-init)
 

@@ -38,7 +38,7 @@
 ;;; Basic settings for all Emacs.
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/utils/")))
-;; (require 'init-package-source)
+(require 'init-package-source)
 (require 'init-builtin-package)
 ;; (require 'init-base-deps)
 (require 'init-basic)

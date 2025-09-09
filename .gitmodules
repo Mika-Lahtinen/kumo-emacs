@@ -1,1 +1,10 @@
 # Common dependencies
+[submodule "plugins/exec-path-from-shell"]
+	path = plugins/exec-path-from-shell
+	url = https://github.com/purcell/exec-path-from-shell.git
+[submodule "plugins/keycast"]
+	path = plugins/keycast
+	url = https://github.com/tarsius/keycast.git
+[submodule "plugins/helpful"]
+	path = plugins/helpful
+	url = https://github.com/Wilfred/helpful.git

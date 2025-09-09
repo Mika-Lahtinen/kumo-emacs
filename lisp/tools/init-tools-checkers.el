@@ -1,6 +1,6 @@
 ;;; init-tools-checkers.el --- Checkers settings
 (use-package flymake
-             :ensure t
+             :ensure nil
              :hook
              (prog-mode . flymake-mode))
 
