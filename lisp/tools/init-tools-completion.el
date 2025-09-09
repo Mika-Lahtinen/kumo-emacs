@@ -10,19 +10,22 @@
 
 ;;; Ivy, counsel and swiper
 (use-package swiper
-             :ensure t
+             :ensure nil
+             :load-path "plugins/swiper"
              :bind
              (("C-s" . swiper-isearch))
              )
 (use-package ivy
-             :ensure t
+             :ensure nil
+             :load-path "plugins/swiper"
              :init
              (ivy-mode)
              :bind
              (("C-c C-r" . ivy-resume))
              :config
              (setq ivy-use-virtual-buffers t
-                   ivy-count-format "(%d/%d)"
+                   ivy-count-format "(%d/%d) "
+                   search-default-mode #'char-fold-to-regexp
                    enable-recursive-minibuffers t)
              )
 (use-package ivy-xref
@@ -30,14 +33,17 @@
              :config
              (setq xref-show-xrefs-function #'ivy-xref-show-xrefs))
 (use-package counsel
-             :ensure t
+             :ensure nil
+             :load-path "plugins/swiper"
              :bind
              (("M-x" . counsel-M-x)
               ("C-x C-f" . counsel-find-file)
               ("C-c g" . counsel-git)
               ("C-c k" . counsel-rg)
               ("C-x b" . ivy-switch-buffer)
-              ("M-y" . counsel-yank-pop))
+              ("M-y" . counsel-yank-pop)
+              :map minibuffer-local-map
+              ("C-r" . counsel-minibuffer-history))
              )
 (use-package counsel-etags
              :ensure t

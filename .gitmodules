@@ -1,1 +1,4 @@
 # Common dependencies
+[submodule "plugins/swiper"]
+	path = plugins/swiper
+	url = https://github.com/abo-abo/swiper.git

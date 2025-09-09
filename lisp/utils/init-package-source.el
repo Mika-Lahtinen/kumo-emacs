@@ -22,7 +22,7 @@
 
 (require 'use-package)
 (eval-and-compile
-  ;;    (setq use-package-always-ensure t)
+  (setq use-package-always-ensure nil)
   (setq use-package-always-defer t)
   (setq use-package-always-demand nil)
   (setq use-package-expand-minimally t)
