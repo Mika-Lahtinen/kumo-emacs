@@ -8,3 +8,21 @@
 [submodule "plugins/helpful"]
 	path = plugins/helpful
 	url = https://github.com/Wilfred/helpful.git
+[submodule "plugins/marginalia"]
+	path = plugins/marginalia
+	url = https://github.com/minad/marginalia.git
+[submodule "plugins/embark"]
+	path = plugins/embark
+	url = https://github.com/oantolin/embark.git
+[submodule "plugins/corfu"]
+	path = plugins/corfu
+	url = https://github.com/minad/corfu.git
+[submodule "plugins/orderless"]
+	path = plugins/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "plugins/vertico"]
+	path = plugins/vertico
+	url = https://github.com/minad/vertico.git
+[submodule "plugins/consult"]
+	path = plugins/consult
+	url = https://github.com/minad/consult.git
