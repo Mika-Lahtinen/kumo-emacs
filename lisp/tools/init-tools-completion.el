@@ -11,31 +11,37 @@
 ;;; Corfu, Embark, Marginalia, Orderless
 (use-package corfu
              :ensure nil
-             :load-path (plugin-load "corfu")
-             :init
+             ;; :load-path "plugins/corfu"
+             :config
              (corfu-global-mode))
 
 (use-package embark
              :ensure nil
-             :load-path (plugin-load "embark"))
+             ;; :load-path "plugins/embark"
+             :bind
+             (("C-." . embark-act)))
 
 (use-package marginalia
              :ensure nil
-             :load-path (plugin-load "marginalia"))
+             ;; :load-path "plugins/marginalia"
+             :config
+             (marginalia-mode)
+             :bind
+             (:map minibuffer-local-map
+			  ("M-A" . marginalia-cycle)))
 
-(use-package orderless
-             :ensure nil
-             :load-path (plugin-load "orderless"))
-
-(use-package vertico
-             :ensure nil
-             :load-path (plugin-load "vertico")
-             :init
-             (vertico-mode))
+(fido-mode 1)
+(fido-vertical-mode 1)
+;; (use-package vertico
+;;              :ensure nil
+             ;; :load-path "plugins/vertico"
+;;              :hook
+;;              (after-init . vertico-mode))
 
 (use-package consult
              :ensure nil
-             :load-path (plugin-load "consult"))
+             ;; :load-path "plugins/consult"
+             )
 
 (provide 'init-tools-completion)
 ;;; init-tools-completion.el ends here.

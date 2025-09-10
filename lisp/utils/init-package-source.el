@@ -29,18 +29,12 @@
   (setq use-package-verbose t))
 ;;
 
-;;; Load plugins path
-(defvar plugins-dir
-  (expand-file-name "plugins" user-emacs-directory))
-(unless (file-directory-p plugins-dir)
-  (make-directory plugins-dir t))
-(add-to-list 'load-path plugins-dir)
-
-(defun plugin-load (plugin-name)
-  (let ((plugin-dir (expand-file-name plugin-name plugins-dir)))
-    (when (file-directory-p plugin-dir)
-      (add-to-list 'load-path plugin-dir)
-      plugin-dir)))
+;;; Load plugins installed by using git submodules
+(let ((plugins-dir (expand-file-name "plugins/" user-emacs-directory)))
+  (when (file-exists-p plugins-dir)
+    (add-to-list 'load-path plugins-dir)
+    (let ((default-directory plugins-dir))
+      (normal-top-level-add-subdirs-to-load-path))))
 
 (provide 'init-package-source)
 ;;; base/package-source.el ends here.

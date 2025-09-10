@@ -6,8 +6,8 @@
 
 (use-package exec-path-from-shell
              :ensure nil
-             :load-path (plugin-load "exec-path-from-shell")
-             :init
+             ;; :load-path "plugins/exec-path-from-shell"
+             :config
              (when (memq window-system '(mac ns x))
                (exec-path-from-shell-initialize))
              )
@@ -20,13 +20,13 @@
 
 (use-package keycast
              :ensure nil
-             :load-path (plugin-load "keycast")
+             ;; :load-path "plugins/keycast"
              :config
              (keycast-header-line-mode 1))
 
 (use-package helpful
              :ensure nil
-             :load-path (plugin-load "helpful")
+             ;; :load-path "plugins/helpful"
              :bind
              (("C-h f" . #'helpful-callable)
               ("C-h v" . #'helpful-variable)
