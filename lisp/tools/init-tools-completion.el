@@ -11,19 +11,18 @@
 ;;; Corfu, Embark, Marginalia, Orderless
 (use-package corfu
              :ensure nil
-             ;; :load-path "plugins/corfu"
              :config
              (corfu-global-mode))
 
 (use-package embark
              :ensure nil
-             ;; :load-path "plugins/embark"
              :bind
-             (("C-." . embark-act)))
+             (("C-." . embark-act)
+              ("C-;" . embark-dwim)
+              ("C-h B" . embark-bindings)))
 
 (use-package marginalia
              :ensure nil
-             ;; :load-path "plugins/marginalia"
              :config
              (marginalia-mode)
              :bind
@@ -32,15 +31,9 @@
 
 (fido-mode 1)
 (fido-vertical-mode 1)
-;; (use-package vertico
-;;              :ensure nil
-             ;; :load-path "plugins/vertico"
-;;              :hook
-;;              (after-init . vertico-mode))
 
 (use-package consult
              :ensure nil
-             ;; :load-path "plugins/consult"
              )
 
 (provide 'init-tools-completion)
