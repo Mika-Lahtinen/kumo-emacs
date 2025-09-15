@@ -20,3 +20,39 @@
 [submodule "plugins/consult"]
 	path = plugins/consult
 	url = https://github.com/minad/consult.git
+[submodule "plugins/nerd-icons-completion"]
+	path = plugins/nerd-icons-completion
+	url = https://github.com/rainstormstudio/nerd-icons-completion.git
+[submodule "plugins/elisp-refs"]
+	path = plugins/elisp-refs
+	url = https://github.com/Wilfred/elisp-refs.git
+[submodule "plugins/dash"]
+	path = plugins/dash
+	url = https://github.com/magnars/dash.el.git
+[submodule "plugins/s"]
+	path = plugins/s
+	url = https://github.com/magnars/s.el.git
+[submodule "plugins/f"]
+	path = plugins/f
+	url = https://github.com/rejeep/f.el.git
+[submodule "plugins/nerd-icons"]
+	path = plugins/nerd-icons
+	url = https://github.com/rainstormstudio/nerd-icons.el.git
+[submodule "plugins/cape"]
+	path = plugins/cape
+	url = https://github.com/minad/cape.git
+[submodule "plugins/corfu-terminal"]
+	path = plugins/corfu-terminal
+	url = https://github.com/cimisc/emacs-corfu-terminal.git
+[submodule "plugins/popon"]
+	path = plugins/popon
+	url = https://codeberg.org/akib/emacs-popon.git
+[submodule "plugins/orderless"]
+	path = plugins/orderless
+	url = https://github.com/oantolin/orderless.git
+[submodule "plugins/vertico"]
+	path = plugins/vertico
+	url = https://github.com/minad/vertico.git
+[submodule "plugins/nerd-icons-corfu"]
+	path = plugins/nerd-icons-corfu
+	url = https://github.com/LuigiPiucco/nerd-icons-corfu.git

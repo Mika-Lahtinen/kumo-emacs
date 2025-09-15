@@ -22,7 +22,7 @@
              :ensure nil
              ;; :load-path "plugins/keycast"
              :config
-             (keycast-header-line-mode 1))
+             (keycast-mode-line-mode 1))
 
 (use-package helpful
              :ensure nil
@@ -33,5 +33,29 @@
               ("C-h k" . #'helpful-key)
               ("C-h x" . #'helpful-command)
               ))
+
+(use-package nerd-icons-completion
+             :ensure nil
+             :config
+             (nerd-icons-completion-mode))
+
+(use-package nerd-icons
+             :ensure nil)
+
+(use-package elisp-refs
+             :ensure nil)
+
+(use-package dash
+             :ensure nil)
+
+(use-package s
+             :ensure nil)
+
+(use-package f
+             :ensure nil)
+
+(use-package popon
+             :ensure nil)
+
 (provide 'init-tools-common)
 ;;; init-tools-common.el ends here

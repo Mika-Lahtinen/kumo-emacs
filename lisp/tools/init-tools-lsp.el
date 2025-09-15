@@ -3,7 +3,7 @@
 ;;; LSP settings.
 ;;; Code:
 (use-package eglot
-             :ensure t
+             :ensure nil
              :bind
              ("C-c e f" . eglot-format)
              :hook
@@ -22,13 +22,7 @@
              (defun private-eglot-hook ()
                (add-hook 'before-save-hook #'eglot-format-buffer nil t)
                (add-hook 'before-save-hook #'eglot-code-action-organize-imports nil t)
-
-               (set (make-local-variable 'company-backends)
-                    '(
-                      (company-capf company-yasnippet)
-                      (company-dabbrev-code company-dabbrev)
-                      )
-                    ))
+              )
              (add-hook 'eglot-managed-mode-hook 'private-eglot-hook)
              (define-key eglot-mode-map (kbd "M-.") 'xref-find-definitions)
              (define-key eglot-mode-map (kbd "M-,") 'xref-pop-marker-stack)

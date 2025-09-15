@@ -12,7 +12,6 @@
   (c-toggle-auto-hungry-state 1)
 
   (eglot-ensure)
-  (company-mode 1)
   (flymake-mode 1))
 
 (defun c-only-hook ()
