@@ -56,3 +56,33 @@
 [submodule "plugins/nerd-icons-corfu"]
 	path = plugins/nerd-icons-corfu
 	url = https://github.com/LuigiPiucco/nerd-icons-corfu.git
+[submodule "plugins/rust-mode"]
+	path = plugins/rust-mode
+	url = https://github.com/rust-lang/rust-mode.git
+[submodule "plugins/markdown-mode"]
+	path = plugins/markdown-mode
+	url = https://github.com/jrblevin/markdown-mode.git
+[submodule "plugins/rustic"]
+	path = plugins/rustic
+	url = https://github.com/emacs-rustic/rustic.git
+[submodule "plugins/yasnippet"]
+	path = plugins/yasnippet
+	url = https://github.com/joaotavora/yasnippet.git
+[submodule "plugins/yasnippet-snippets"]
+	path = plugins/yasnippet-snippets
+	url = https://github.com/AndreaCrotti/yasnippet-snippets.git
+[submodule "plugins/eldoc-box"]
+	path = plugins/eldoc-box
+	url = https://github.com/casouri/eldoc-box.git
+[submodule "plugins/wgrep"]
+	path = plugins/wgrep
+	url = https://github.com/mhayashi1120/Emacs-wgrep.git
+[submodule "plugins/irony"]
+	path = plugins/irony
+	url = https://github.com/Sarcasm/irony-mode.git
+[submodule "plugins/modern-cpp-font-lock"]
+	path = plugins/modern-cpp-font-lock
+	url = https://github.com/ludwigpacifici/modern-cpp-font-lock.git
+[submodule "plugins/go-mode"]
+	path = plugins/go-mode
+	url = https://github.com/dominikh/go-mode.el.git

@@ -64,9 +64,18 @@
 (use-package consult
              :ensure nil
              :bind
-             (("C-s" . consult-line)
-              ("C-x b" . consult-buffer))
+             (("C-c m" . consult-man)
+              ("C-x b" . consult-buffer)
+              ("M-g f" . consult-flymake)
+              ("M-s g" . consult-grep)
+              ("M-s r" . consult-ripgrep)
+              ("M-s l" . consult-line))
              )
+
+(use-package embark-consult
+             :ensure nil
+             :hook
+             (embark-collect-mode . consult-preview-at-point-mode))
 
 (use-package cape
              :ensure nil
@@ -79,6 +88,9 @@
              (add-to-list 'completion-at-point-functions #'cape-keyword)
              (add-to-list 'completion-at-point-functions #'cape-history)
              )
+
+(use-package wgrep
+             :ensure nil)
 
 (provide 'init-tools-completion)
 ;;; init-tools-completion.el ends here.

@@ -55,14 +55,16 @@
 (require 'init-tools-completion)
 (require 'init-tools-checkers)
 ;; (require 'init-tools-snippets)
-;; (require 'init-tools-lsp)
+;; (require 'init-tools-treesit)
+(require 'init-tools-lsp)
 ;; (require 'init-tools-chinese)
 
 ;; Programming language configurations
 (add-to-list 'load-path
              (expand-file-name (concat user-emacs-directory "lisp/lang/")))
-;; (require 'init-lang-cc)
-;; (require 'init-lang-rust)
+(require 'init-lang-cc)
+(require 'init-lang-rust)
+;; (require 'init-lang-go)
 ;; (require 'init-lang-haskell)
 ;; (require 'init-lang-elixir)
 ;; (require 'init-lang-javascript)

@@ -34,9 +34,12 @@
              )
 
 (use-package eldoc-box
-             :ensure t
+             :ensure nil
+             :custom
+             (eldoc-box-max-pixel-width 500)
+             (eldoc-box-max-pixel-height 300)
              :config
-             (add-hook 'eglot-managed-mode-hook 'eldoc-box-hover-hook)
+             (add-hook 'eglot-managed-mode-hook #'eldoc-box-hover-mode t)
              )
 
 

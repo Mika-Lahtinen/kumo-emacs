@@ -1,7 +1,8 @@
 (use-package markdown-mode
-    :ensure t
-    :mode ("README\\.md\\'" . gfm-mode))
+             :ensure nil
+             :mode ("README\\.md\\'" . gfm-mode)
+             :bind
+             (:map markdown-mode-map
+                   ("C-c C-e" . markdown-do)))
 
-
-(use-package markdown-mode)
 (provide 'init-lang-markdown)
